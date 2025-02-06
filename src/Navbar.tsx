@@ -6,16 +6,16 @@ const DesktopNavbar = () => {
 
   return (
     <div className='Navbar'>
-      <a id='logo' href='#Home'>Aitomäen Myllerrys</a>
+      <a id='logo' href='/'>Aitomäen Myllerrys</a>
       <div className='menu'>
         <div className='dropdown'>
           <a href='#Info'>INFO</a>
           <div className='dropdown-content'>
-            <a href='#Teaching'>Opetus</a>
-            <a href='#Jams'>Jamit</a>
-            <a href='#Location'>Tapahtumapaikka</a>
-            <a href='#Food'>Ruokailut</a>
-            <a href='#Price'>Hinta</a>
+            <a href='#Opetus'>Opetus</a>
+            <a href='#Jamit'>Jamit</a>
+            <a href='#Majoitus'>Majoitus</a>
+            <a href='#Ruokailut'>Ruokailut</a>
+            <a href='#Ilmoittautuminen'>Ilmoittaudu</a>
           </div>
         </div>
 
@@ -27,7 +27,7 @@ const DesktopNavbar = () => {
             <a href='#Arttu'>Arttu Peltoniemi</a>
           </div>
         </div>
-        <a href='#Signup'>ILMOITTAUDU</a>
+        <a href='#Ilmoittautuminen'>ILMOITTAUDU</a>
       </div>
     </div>
   )
@@ -59,11 +59,12 @@ const MobileNavbar = () => {
       {showMenu && <div className='menu'>
 
         <a href='#Info'>INFO</a>
-        <a href='#Teaching'>Opetus</a>
-        <a href='#Jams'>Jamit</a>
-        <a href='#Location'>Tapahtumapaikka</a>
-        <a href='#Food'>Ruokailut</a>
-        <a href='#Price'>Hinta</a>
+
+        <a href='#Opetus'>Opetus</a>
+        <a href='#Jamit'>Jamit</a>
+        <a href='#Majoitus'>Majoitus</a>
+        <a href='#Ruokailut'>Ruokailut</a>
+        <a href='#Ilmoittautuminen'>Hinnat</a>
         <div className='spacer' />
 
         <a href='#Teachers'>OPETTAJAT</a>
@@ -72,7 +73,7 @@ const MobileNavbar = () => {
         <a href='#Arttu'>Arttu Peltoniemi</a>
         <div className='spacer' />
 
-        <a href='#Signup'>ILMOITTAUDU</a>
+        <a href='#Ilmoittautuminen'>ILMOITTAUDU</a>
       </div>}
     </div>
   )

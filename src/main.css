@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bree+Serif&family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
 html,
 body {
   margin: 0;
@@ -13,85 +15,57 @@ body {
   box-sizing: inherit;
 }
 
+h1, h2 {
+  font-family: 'Averia Serif Libre', serif;
+  text-align: center;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 4.0vw;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+
 a {
   text-decoration: none;
 }
 
-h1,
-h2 {
-  margin-top: 0px;
-  font-family: "Bree Serif", sans-serif;
+p {
+  width: 100%;
 }
-
-button {
-  font-family: "Bree Serif";
-  width: fit-content;
-  font-size: 16pt;
-  margin: 30px auto;
-  padding: 4px 8px;
-  cursor: pointer;
-}
-
 img {
   display: block;
   margin: auto;
   width: 100%;
-  max-width: 500px;
 }
 
-.page {
-  padding: 65px 30px 0px 30px;
-  margin: auto;
-  max-width: 800px;
-  margin: auto;
+.link {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20pt;
+  border: 1px solid black;
+  padding: 5px 10px;
+  width: fit-content;
+  display: block;
+  margin: 0px auto;
 }
 
-.App {
-  font-family: "Copse";
-  text-align: center;
+.link:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
-@font-face {
-  font-family: 'Dancing Script';
-  src: local('Dancing Script'), url('./assets/fonts/dancing-script.regular.ttf'), format('truetype');
+.anchor {
+  position: relative;
+  top: -65px;
 }
 
-@font-face {
-  font-family: 'Raleway Regular';
-  src: local('Raleway Regular'), url('./assets/fonts/raleway.regular.ttf'), format('truetype');
-}
-
-@font-face {
-  font-family: 'Bree Serif';
-  src: local('Bree Serif'), url('./assets/fonts/bree-serif.regular.otf'), format('opentype');
-}
-
-@font-face {
-  font-family: 'Copse';
-  src: local('Copse'), url('./assets/fonts/copse.regular.ttf'), format('opentype');
-}
-
-
-
-@media only screen and (max-width: 950px) {
-  .page {
-    padding-top: 50px;
+@media screen and (width <= 640px) {
+  h1 {
+    font-size: 40pt;
   }
-}
-
-@media only screen and (max-width: 650px) {
-  .page {
-    padding-top: 35px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-
-  .page {
-    padding-top: 65px;
-  }
-
-  img {
-    width: 100%;
-  }
+  
 }
