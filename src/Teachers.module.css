@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   height: fit-content;
+  padding-bottom: 30px;
   /* Adjust as needed */
 }
 
@@ -12,7 +13,6 @@
   width: 100%;
   height: 100%;
   background-image: url('/navetta.png');
-  /* Replace with your image path */
   filter: grayscale(60%) blur(5px);
   background-size: cover;
   background-attachment: fixed;
@@ -24,12 +24,6 @@
 .teachers {
   position: relative;
   z-index: 0;
-  /* max-width: 1700px;
-  padding: 75px 175px;
-  margin: auto;
-  font-family: 'Pridi', serif;
-  font-weight: 300;
-  font-size: 16pt; */
 }
 
 .teachers h1 {
@@ -42,27 +36,29 @@
 
 .profiles {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .profiles>div {
-  max-width: 16vw;
+  max-width: 20vw;
   box-shadow: 2px 2px 5px black;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid white;
   border-radius: 6px;
   overflow: hidden;
-  margin: 30px;
+  margin: 2vw;
   transition: transform 0.3s ease;
 }
 
 .profiles>div>h2 {
-  font-size: min(1.8vw,48px);
+  font-size: min(1.8vw, 48px);
+  padding: 5px 0;
 }
 
 .profiles>div:hover {
   cursor: pointer;
-  transform: scale(1.2); /* Increase the size by 20% */
+  transform: scale(1.2);
+  /* Increase the size by 20% */
 }
 
 .profileContainer {
@@ -95,23 +91,103 @@
   border: 1px solid white;
   border-radius: 6px;
   overflow: hidden;
-  cursor:default;
+  cursor: default;
   text-align: left;
+  padding: 20px;
+  max-width: 1200px;
+  font-size: 16pt;
 }
 
 .profile h2 {
   text-align: center;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 .profile img {
-  margin: 40px;
+  margin: 0px 20px 0 0;
   float: left;
   width: 300px;
   height: 400px;
 }
 
-@media screen and (width < 1800px) {
+.profile p {
+  margin: 20px 0 0 0;
+}
 
+@media screen and (width < 1024px) {
+  .profiles>div {
+    max-width: 24vw;
+    margin: 2vw;
+  }
+
+  .profile img {
+    width: 30vw;
+    height: auto;
+  }
+  
+}
+
+@media screen and (width < 800px) {
+  .profiles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profiles>div {
+    max-width: 40vw;
+    margin: 4vw;
+  }
+
+  .profile {
+    font-size: 14pt;
+  }
+
+  .profiles>div>h2 {
+    font-size: min(4vw);
+  }
+
+  .profile h2 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .profile img {
+    display: block;
+    float: none;
+    margin: 40px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .profile {
+    font-size: 12pt;
+  }
+
+  .chevron {
+    color: white;
+    font-size: 40pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    flex-shrink: 0;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .profile {
+    font-size: 10pt;
+    margin: 0px 10px;
+  }
+
+  .chevron {
+    display: none;
+  }
   
 }

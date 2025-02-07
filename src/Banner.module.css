@@ -1,8 +1,7 @@
 .parallax {
   position: relative;
   overflow: hidden;
-  height: 73vw;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .parallaxBackground {
@@ -13,7 +12,7 @@
   height: 100%;
   background-image: url('/myllerrys.png');
   filter: grayscale(40%) blur(3px);
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -26,7 +25,6 @@
   margin: auto;
   font-family: 'Pridi', serif;
   font-weight: 300;
-  font-size: 16pt;
   color: white;
   text-align: center;
 
@@ -68,11 +66,15 @@
   display: none;
 }
 
-@media screen and (width >=2000px) {
-
-  .parallaxBackground {
-    background-size: cover;
-    background-position: top;
+@media screen and (width <= 1000px) {
+  .header {
+    font-size: 20vw;
   }
-
+  .info {
+    font-size: 5vw;
+  }
+  .br {
+    display: block;
+  }
+  
 }

@@ -177,7 +177,7 @@
 
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (width <= 400px) {
   .Navbar #logo {
     display: none;
   }

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import s from './Teachers.module.css'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
@@ -12,30 +11,29 @@ const descriptions = [
     </p>
   </>,
 
-  <div>
+  <>
     <p>
       Maiju on aloittanut opintonsa musiikin puolella ja siirtynyt siitä tanssin pariin. Maijulla onkin opetuskilometrejä niin musiikista, tanssista kuin koulusta. Hän on valmistunut musiikkikasvatuksesta (FM), Musiikkipedagogiksi (amk), Tanssinopettajaksi (YAMK), muusikoksi (ao). Maiju opettaa tanssia mm. Aitomäen nuorisoseurassa sekä useassa muussa viikkoryhmässä.
     </p>
     <p>
       Häntä kiinnostaa kansantanssin lisäksi paritanssi myös laajemmin, ja Maiju opettaa ja tanssii mielellään myös esimerkiksi lavatansseja. Paritanssissa häntä kiinnostavat erilaiset kontaktin muodot, eri tanssilajien tyypilliset piirteet sekä lajien yhdistäminen luovasti yhdeksi tanssiksi. Viime vuosina Maiju on opettanut omien ryhmiensä lisäksi monipuolisesti erilaisissa kouluttajan ja opettajan tehtävissä tanssin ja musiikin parissa. Nykyään Maiju työskentelee päivisin luokanopettajana ja iltaisin tanssinopettajana.
     </p>
-  </div>,
+  </>,
 
 
-  <div>
+  <>
     <p>
       Arttu on Oulun seudun ammattikorkeasta valmistunut nyky- ja kansantanssin opettaja sekä tanssitaiteilija, joka tutkii työssään kansantanssin merkitystä nyky-yhteiskunnassa heijastaen sitä pohjoismaisen tanssin materiaaliin ja konteksteihin 1800- ja 1900-lukujen vaihteesta. Peltoniemelle kaikki tanssi on merkityksellistä ensisijaisesti tekijänsä sisäisenä ja tekijöiden välisenä kokemuksena. Arttu opettaa useissa pääkaupunkiseudun ryhmissä niin perinteisempää kansantanssia kuin rakastamaansa vapaata, kontaktiin perustuvaa kansanparitanssia. Opettamisen ohella hän työskentelee freelance-tanssitaiteilijana erilaisissa projekteissa ja esityksissä esim. Suomen Kansallisoopperassa ja Raakaa Tradia -kollektiivissa.
     </p>
     <p>
       Kansantanssin opettamista käsittelevässä työssään Peltoniemi on purkanut kansantanssin kuviot kontaktimetodeiksi ja rytmiikoiksi, joita harjoittelemalla tanssija voi toimia niin kutsutussa "epätietämisen" tilassa silti toteuttaen perinteistä liikemateriaalia. Tässä "epätietämisen" tilassa toimiva tanssija on kuitenkin aktiivinen tilanteen tarkkailija, joka ylläpitää kontaktia, yhteistä tai solistista toimintaa, kansantanssin liikeperiaatteita sekä yhteyttä musiikkiin. Harjoitellut liikelaadut ja askelrytmit sekä erilaiset hytkeet pitävät hetkessä syntyvän liikkeen tiukasti perinteeseen juurtuneena ollen kuitenkin tekijöilleen kokoajan juuri tässä tilanteessa syntyvää toimintaa, johon voi haltioituen upota.
     </p>
-  </div>,
+  </>,
 ]
 
 const teachers = ['Jari Haavisto', 'Maiju Laurila', 'Arttu Peltoniemi']
 
-export default function Teachers() {
-  const [selected, setSelected] = useState<number | null>(null)
+export default function Teachers({ selected, setSelected }: { selected: number | null, setSelected: (i: number | null) => void }) {
 
   return (
     <div className={s.parallax}>
