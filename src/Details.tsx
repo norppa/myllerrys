@@ -14,7 +14,7 @@ export default function Details() {
 
       <div id='Info' className='anchor' />
       <h1>Tietoa leiristä</h1>
-      <p>
+      <p className={s.firstParagraph}>
         Aitomäen Myllerrys vastaa paritanssin nälkäisten kutsuun ja tarjoaa kaikelle kansalle mahdollisuuden opiskella kansanomaisia paritansseja kolmen päivän ajan, kolmen opettajan tunneilla, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua.
       </p>
 
@@ -45,7 +45,7 @@ export default function Details() {
 
 
       <div id='Jamit' className='anchor' />
-      <h2 >Jamit</h2>
+      <h2>Jamit</h2>
 
       <img src={jamitPng} className={s.leftImage} alt='Jamit' />
 

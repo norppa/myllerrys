@@ -7,7 +7,7 @@ import s from './Info.module.css'
 export default function Info() {
   return (
     <div className={s.info}>
-      <h1 className={s.h1}>Aitomäen Myllerrys</h1>
+      <h1>Aitomäen Myllerrys</h1>
       <h2>16.-18.8.2024</h2>
 
       <p className={s.firstParagraph}>

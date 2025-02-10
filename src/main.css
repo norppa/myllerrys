@@ -23,7 +23,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 4.0vw;
+  font-size: 50pt;
 }
 
 h2 {
@@ -47,6 +47,7 @@ img {
 .link {
   font-family: 'Fira Sans', sans-serif;
   font-size: 20pt;
+  text-align: center;
   border: 1px solid black;
   padding: 5px 10px;
   width: fit-content;
@@ -64,9 +65,8 @@ img {
   top: -65px;
 }
 
-@media screen and (width <= 640px) {
+@media screen and (width <=1000px) {
   h1 {
     font-size: 40pt;
   }
-  
 }
