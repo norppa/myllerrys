@@ -3,30 +3,56 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   color: white;
   font-size: 2vw;
   padding: 20px;
+
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .contact img {
   max-width: 25vw;
 }
 
-.contact > div {
+.contact>div {
   color: white;
   line-height: 3.0vw;
 
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+.kataja,
+.contactInfo {
+  width: 25vw;
+}
+
+.kataja {
   align-items: center;
-  justify-content: center;
-  width: 100%;
+}
+
+.facebook {
+  width: fit-content;
+  font-size: 6vw;
+  align-self: center;
+  padding: 20px 4vw;
+}
+
+.contactInfo {
+  text-align: left;
+  align-items: flex-start;
 }
 
 .contact a {
   color: white;
-  width: 100%;
-  text-align: center;
+}
+
+@media screen and (width <= 640px) {
+  .facebook {
+    padding: 10px 4vw;
+  }
+  
 }

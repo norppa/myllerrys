@@ -14,7 +14,7 @@
 
 .details>p {
   padding: 0px 180px;
-  margin: 0px 0px 1em 0px;
+  margin: -5px 0px 1em 0px;
 }
 
 .firstParagraph {
@@ -85,6 +85,7 @@
     padding-bottom: 0px;
   }
   .leftImage {
+    margin: 0px 10px 5px 0px;
     width: 50%;
   }
 }

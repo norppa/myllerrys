@@ -1,7 +1,3 @@
-import opetusPng from './assets/opetus.png'
-import jamitPng from './assets/jamit.png'
-import majoitusPng from './assets/majoitus.png'
-
 import s from './Details.module.css'
 
 const mapSrc = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1942.5845570800725!2d26.842052655598735!3d60.8639228876968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4691ad15f1b8e761%3A0x1adb3409e9f6c595!2sAitom%C3%A4en%20Nuorisoseura%20r.y.!5e0!3m2!1sfi!2sfi!4v1714114006373!5m2!1sfi!2sfi'
@@ -23,7 +19,7 @@ export default function Details() {
       <h2>Opetus</h2>
 
 
-      <img src={opetusPng} className={s.leftImage} alt='Opetus' />
+      <img src='/opetus.png' className={s.leftImage} alt='Opetus' />
       <p>
         Leirin opetuksessa syvennytään paritanssin eri puoliin.
       </p>
@@ -47,7 +43,7 @@ export default function Details() {
       <div id='Jamit' className='anchor' />
       <h2>Jamit</h2>
 
-      <img src={jamitPng} className={s.leftImage} alt='Jamit' />
+      <img src='/jamit.png' className={s.leftImage} alt='Jamit' />
 
       <p>
         Iltajameissa päästään ottamaan kurssien opit käyttöön ja pistämään jalalla koreasti svengaavan musiikin tahtiin. Jamimeininkiä on sekä perjantaina että lauantaina alkaen klo 18 ja päättyen kun tanssijat ja soittajat kupsahtavat nukkumaan. Puitteet tarjoaa Niemen navetta, jossa päästään autenttiseen folkkitunnelmaan. Illan aikana on tarjolla iltaruoka, jotta jaksetaan riehua myöhään yöhön asti. Navetassa ei ole alkoholitarjoilua, joten varustauduthan siltä osin henkilökohtaisin eväin mikäli sellaisia kaipaat.
@@ -68,7 +64,7 @@ export default function Details() {
       <h2>Majoitus</h2>
 
 
-      <img src={majoitusPng} className={s.leftImage} alt='Jamit' />
+      <img src='/majoitus.png' className={s.leftImage} alt='Jamit' />
 
 
       <p>

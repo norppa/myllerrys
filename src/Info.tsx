@@ -1,7 +1,3 @@
-import opetusPng from './assets/opetus.png'
-import jamitPng from './assets/jamit.png'
-import majoitusPng from './assets/majoitus.png'
-
 import s from './Info.module.css'
 
 export default function Info() {
@@ -19,7 +15,7 @@ export default function Info() {
 
 
       <div className={s.grid}>
-        <img className={s.opetusImg} src={opetusPng} alt='Opetus' />
+        <img className={s.opetusImg} src='/opetus.png' alt='Opetus' />
 
         <div className={s.opetusText}>
           <h2 className={s.h2}>Opetus</h2>
@@ -42,7 +38,7 @@ export default function Info() {
         </div>
 
 
-        <img className={s.jamitImg} src={jamitPng} alt='Jamit' />
+        <img className={s.jamitImg} src='/jamit.png' alt='Jamit' />
 
         <div className={s.jamitText}>
           <h2 className={s.h2}>Jamit</h2>
@@ -64,7 +60,7 @@ export default function Info() {
         </div>
 
 
-        <img className={s.majoitusImg} src={majoitusPng} alt='Majoitus' />
+        <img className={s.majoitusImg} src='/majoitus.png' alt='Majoitus' />
 
         <div className={s.majoitusText}>
           <h2 className={s.h2}>Majoitus</h2>
