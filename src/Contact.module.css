@@ -1,58 +1,72 @@
 .contact {
   background-color: rgba(0, 0, 0, 0.75);
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
   color: white;
-  font-size: 2vw;
+  font-size: min(2vw, 32pt);
   padding: 20px;
 
   font-family: 'Fira Sans', sans-serif;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
 }
 
-.contact img {
-  max-width: 25vw;
-}
-
-.contact>div {
-  color: white;
-  line-height: 3.0vw;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.kataja,
-.contactInfo {
-  width: 25vw;
-}
-
-.kataja {
-  align-items: center;
-}
-
-.facebook {
-  width: fit-content;
-  font-size: 6vw;
-  align-self: center;
-  padding: 20px 4vw;
-}
-
-.contactInfo {
-  text-align: left;
-  align-items: flex-start;
+.contact h3 {
+  margin: 0px 0px 0.5em 0px;
 }
 
 .contact a {
   color: white;
 }
 
+.kataja {
+  text-align: center;
+  width: fit-content;
+  justify-self: end;
+}
+
+.kataja img {
+  max-width: 20vw;
+}
+
+.facebook {
+  width: fit-content;
+  font-size: 6vw;
+  padding: 20px 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  padding-left: 3px;
+  line-height: 1.4em;
+}
+
+@media screen and (width <= 2000px) {
+  .kataja img {
+    max-width: 25vw;
+  }
+}
+
 @media screen and (width <= 640px) {
+  .contact {
+    padding: 5px;
+    font-size: 3vw;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .kataja img {
+    max-width: 35vw;
+  }
+
   .facebook {
     padding: 10px 4vw;
+    font-size: 8vw;
   }
-  
+
+  .info {
+
+  }
+
 }

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className={s.contact}>
       <div className={s.kataja}>
-        Tapahtuman järjestää:
+        <h3>Tapahtuman järjestää:</h3>
         <a href='https://www.kansantanssijamit.fi'>
           <img src='/kataja_logo.png' alt='Kataja logo' />
         </a>
@@ -16,11 +16,11 @@ const Contact = () => {
           <FaFacebookSquare />
         </a>
       </div>
-      <div className={s.contactInfo}>
-        Lisätietoja:
+      <div className={s.info}>
+        <h3>Lisätietoja:</h3>
         <a href='mailto:info@myllerrys.fi'>info@myllerrys.fi</a>
+        <br />
         044-9786546
-
       </div>
     </div>
   )
