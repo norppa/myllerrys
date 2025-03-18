@@ -16,7 +16,7 @@ body {
   box-sizing: inherit;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Averia Serif Libre', serif;
   text-align: center;
   margin: 0px;
@@ -30,9 +30,14 @@ h2 {
   font-size: 30pt;
 }
 
+h3 {
+  font-size: 20pt;
+}
+
 
 a {
   text-decoration: none;
+  color: black
 }
 
 p {

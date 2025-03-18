@@ -32,14 +32,6 @@ export default function Details() {
         Jatkotasolla syvennetään parikontaktin käsittelyä sekä musiikin kanssa fraseerausta, etsitään tanssilajeille tyypillistä liikekieltä ja luodaan yhteyksiä muihin paritanssilajeihin. Jatkotasolla toivomme useamman vuoden kansantanssikokemusta ja vahvaa aiempaa harrastuneisuutta tai opintoja kansanparitansseista.
       </p>
 
-
-
-
-
-
-
-
-
       <div id='Jamit' className='anchor' />
       <h2>Jamit</h2>
 
@@ -52,14 +44,6 @@ export default function Details() {
         Lauantaiohjelman aloittaa Aitoniemen Orkesteri, joka nostaa tunnelman kattoon raisulla pelimannimeiningillä. Tanssilattilla on avoin sekahaku koko illan ja kaikki ovat tervetulleita niin viemään kuin seuraamaan. Virallisen bändin väsähdettyä jatketaan vapaamuotoisilla jameilla, joten jos mielesi tekee istahtaa soittajan tuolille, tuo mukaan oma soittimesi ja liity pelimanneihin.
       </p>
 
-
-
-
-
-
-
-
-
       <div id='Majoitus' className='anchor' />
       <h2>Majoitus</h2>
 
@@ -67,11 +51,9 @@ export default function Details() {
       <img src='/majoitus.png' className={s.leftImage} alt='Jamit' />
 
 
+
       <p>
-        Leiri tapahtuu <a href='https://www.seurantalot.fi/talot/1820-aitom%C3%A4en-nuorisoseura-ry-1009'>Aitomäen nuorisoseuran talolla</a> sekä viereisen Niemen navetan ylisillä.
-      </p>
-      <p>
-        Majoitus tapahtuu seuraintalon majoitustiloissa, jossa on sängyt 20 ihmiselle ja paljon tilaa omien patjojen kanssa tuleville. Ota mukaasi omat petivaatteet ja halutessasi myös tyyny. Koska patjoja on rajoitetusti, pyydämme, että jos vain suinkin kykenet, saavut oman patjan kanssa.
+        Myllerrykseen voi osallistua monin eritavoin majoittumalla. Parhaan leirifiiliksen saat majoittumalla Myllerryksen majoitusvaihtoehdoissa, mutta omatoiminen majoittuminen hotellissa tai kotona (mikäli asut lähistöllä) onnistuu myös. Kaikkiin Myllerryksen paketteihin sisältyy opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Leiri tapahtuu <a href='https://www.seurantalot.fi/talot/1820-aitom%C3%A4en-nuorisoseura-ry-1009'>Aitomäen nuorisoseuran talolla</a> sekä viereisen Niemen navetan ylisillä.
       </p>
 
       <div className={s.mapContainer}>
@@ -87,64 +69,74 @@ export default function Details() {
       </div>
 
 
+      <h2>Majoituspaketit</h2>
+
+      <div className={s.packages}>
 
 
+        <h3>Majoituspaketti “Peruspaketti” 150€</h3>
+        <p>
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus omatoimisesti hotellissa https://shorturl.at/HziJD , majoittuen kotonasi, tai omassa teltassa navetan pihapiirissä.
+        </p>
 
+        <h3>Majoituspaketti “Teltta” 165€</h3>
+        <p>
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus puolijoukkueteltassa seuraintalon pihalla. Omat nukkumisvarusteet (patja, makuupussi yms) mukaan. Huom. tämä majoitusvaihtoehto on sekamajoitus.
+        </p>
 
+        <h3>Majoituspaketti “Kotimajoitus” 165€</h3>
+        <p>
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu pyöräily tai ajomatkan päässä asuvan aitomäkeläisen kotona pääosin lattiamajoituksessa (lakanat / makuupussi mukaan). Majoituksia järjestetään niin paljon kuin majoittajia riittää, ilmoittautumisjärjestyksessä. Mikäli majoittajia ei löydy riittävästi, leiriläistä pyydetään vaihtamaan vaihtoehtonsa johonkin muuhun pakettiin.
+        </p>
 
+        <h3>Majoituspaketti “Seuraintalo” 175€</h3>
+        <p>
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu seuraintalolla, patjamajoituksessa. Tarvitset mukaan oman tyynyn, peiton, makuupussin tai muita tarvitsemiasi nukkumisvarusteita. Myllerrys tarjoaa patjat. Majoitus on pääosin sekamajoitusta, mutta kaksi sukupuolitettua tilaa (mies / nainen / muunsukupuolinen) on mahdollista järjestää. Esitäthän toiveen ilmoittautumisen lisätiedoissa. Mikäli tarvetta on enemmälle kuin kahdelle sukupuolitetulle tilalle, tuottaja on yhteydessä tilaa toivoneisiin leiriläisiin ja etsimme yhdessä toimivan ratkaisun.
+        </p>
 
+      </div>
+
+      <h2>Kaveripaketit</h2>
+      <div className={s.packages}>
+        <h3>Kaveripaketti “Myötämäki” +50€ (tai vaihtoehtoisesti 20€ / 30€ / 50€)</h3>
+        <p>
+          Jos osallistut leirille, niin tämä paketti ostetaan Majoituspaketin lisäksi! Myllerrys haluaa mahdollistaa harrastamisen myös vähempivaraisille vapaan kansanomaisen paritanssin tanssijoille. Voit maksaa 50€ enemmän ja tämä raha jaetaan tasan alentamaan “Vastamäki” kaveripaketin ostajien kurssimaksua. Mikäli et halua nimeäsi kerrottavan Myllerryksessä, kerrothan siitä meille. (muussa tapauksessa kerromme tämän paketin ostaneiden nimet Myllerryksen päätöshetkessä)
+        </p>
+
+        <h3>Kaveripaketti “Vastamäki” -?? € etiäpäin sanoi mummo lumessa</h3>
+        <p>
+          Jos olet hankalassa taloudellisessa tilanteessa, mutta haluaisit ilmoittautua Myllerrykseen, niin valitse tämä paketti Majoituspaketin lisäksi. Pakettia ei voi valita pelkästään. Huomaathan, että alennusmäärä riippuu “Myötämäki” -paketin ostaneiden ja muiden tämän paketin toivoneiden määrästä! Emme julkaise tai kerro nimeäsi missään. Tieto mahdollisesta alennuksesta tulee noin kuukautta ennen.
+        </p>
+
+      </div>
 
       <div id='Ruokailut' className='anchor' />
       <h2>Ruokailut</h2>
-
       <img src='/ruokailut.png' className={s.leftImage} alt='Ruokailut' />
       <p>
-        Kurssiin kuuluu täysihoito, eli majoitusten lisäksi kurssilaisille tarjotaan kaikki ruoat kurssin aikana. Tarjolla on perjantaina iltaruoka, lauantaina aamupala, lounas, välipala, päivällinen ja iltaruoka, sekä sunnuntaina vielä aamupala.
+        Leirin hintaan kuuluvat kaikki leirin aikana tapahtuvat ateriat. Ruokailu tapahtuu Aitomäen nuorisotalolla. Mikäli sinulla on ruoka-ainerajoitteita, ilmoitathan niistä ilmoittautuessasi, jotta pystymme tarjoamaan kaikille tukevat ateriat.
       </p>
       <p>
-        Mikäli sinulla on ruoka-ainerajoitteita, ilmoitathan niistä ilmoittautuessasi, jotta pystymme tarjoamaan kaikille tukevat ateriat.
+        Leiriin kuuluu seitsemän ruokailua:
+        <br />&nbsp;&#x2022; Perjantai: iltaruoka
+        <br />&nbsp;&#x2022; Lauantai: aamiainen, lounas, kahvi, päivällinen, iltaruoka
+        <br />&nbsp;&#x2022; Sunnuntai: aamiainen
       </p>
-      <p>
-        ########
-      </p>
-      <p>
-        ########
-      </p>
-      <p>
-        ########
-      </p>
-
-
-
-
-
-
-
-
 
       <div id='Ilmoittautuminen' className='anchor' />
       <h2>Ilmoittautuminen</h2>
       <img src='/ilmo.png' className={s.leftImage} alt='Ilmoittautuminen' />
 
       <p>
-        Kurssin hinta on 100€. Kurssin hintaan sisältyy
-        <ul>
-          <li>Yhdeksän tuntia opetusta</li>
-          <li>Majoitus Aitomäen seurantalolla</li>
-          <li>Kahdet iltabileet</li>
-          <li>Ruokailut</li>
-        </ul>
+        Kurssin hinta määräytyy valitsemasi majoituspaketin ja mahdollisen valitsemasi myötä/vastamäki paketin mukaan . Kurssin hintaan sisältyy:
+        <br />&nbsp;&#x2022; Yhdeksän tuntia opetusta
+        <br />&nbsp;&#x2022; Valitsemasi majoituspaketti
+        <br />&nbsp;&#x2022; Kahdet iltabileet
+        <br />&nbsp;&#x2022; Ruokailut
       </p>
 
       <p>
         Ilmoittautuminen tehdään Katajan ilmoittautumislomakkeella. Ilmoittautumaan mahtuu 60 ensimmäistä ja paikat täyttyvät vauhdilla, joten ole nopea! Mikäli paikat tulevat täyteen, voit ilmoittautua varasijalle.
-      </p>
-
-      <p>
-        ########
-      </p>
-      <p>
-        ########
       </p>
 
       <a className='link'>Ilmoittaudu Myllerrykseen</a>

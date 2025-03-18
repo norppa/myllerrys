@@ -32,7 +32,7 @@ export default function Info() {
             </li>
           </ul>
 
-          <a className='link'>
+          <a className='link' href='#Opetus'>
             Lue lisää opetuksesta
           </a>
         </div>
@@ -54,7 +54,7 @@ export default function Info() {
             </li>
           </ul>
 
-          <a className='link'>
+          <a className='link' href='#Jamit'>
             Lue lisää jameista
           </a>
         </div>
@@ -63,17 +63,20 @@ export default function Info() {
         <img className={s.majoitusImg} src='/majoitus.png' alt='Majoitus' />
 
         <div className={s.majoitusText}>
-          <h2 className={s.h2}>Majoitus</h2>
+          <h2 className={s.h2}>Majoitus ja ruokailut</h2>
           <ul>
+            <li>
+              Myllerryspakettiin kuuluu täysihoito sisältäen majoituksen ja ruokailut.
+            </li>
             <li>
               Majoitusvaihtoehtoina lattiamajoitus seurantalolla, telttamajoitus pihalla tai hotellimajoitus Kouvolassa.
             </li>
             <li>
-              Myllerryspakettiin kuuluvat aamupala, lounas, päivällinen ja iltaruoka.
+              Ruokaa on tarjolla yhdeksän aterian verran, aamupaloista iltapaloihin.
             </li>
           </ul>
-          <a className='link'>
-            Lue lisää majoituksesta
+          <a className='link' href='#Majoitus'>
+            Lue lisää majoituksesta ja ruokailuista
           </a>
         </div>
       </div>

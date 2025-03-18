@@ -14,7 +14,7 @@ export default function Banner() {
           <br className={s.br} />
           Kouvolassa
         </div>
-        <div className={s.info + ' ' + s.date}> 16.-18.8.2024</div>
+        <div className={s.info + ' ' + s.date}> 8.-10.8.2025</div>
       </div>
     </div>
   )
