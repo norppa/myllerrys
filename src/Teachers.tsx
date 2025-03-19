@@ -32,10 +32,10 @@ const descriptions = [
 
   <>
     <p>
-      Voluptate anim nisi tempor incididunt irure eiusmod duis aliquip nostrud commodo do occaecat. Tempor non cupidatat aliquip ea mollit officia ut. Commodo dolore aute sunt exercitation sint cupidatat consequat. Quis in magna ipsum ea officia. Lorem dolor sunt mollit magna deserunt dolor est et occaecat pariatur culpa non incididunt mollit. Consectetur reprehenderit exercitation amet excepteur ullamco labore cupidatat proident. Ad ad ex fugiat commodo laborum sint in velit consectetur cillum ea cillum mollit adipisicing. Quis enim commodo laborum culpa commodo elit. Nisi deserunt exercitation pariatur in aute.
+      Mari Solja on taidealan sekatyöläinen, Kasvatustieteen maisteri ja pitkän linjan freelance- tuottaja. Mari on pitkään tuottanut kansantanssin ja kansanmusiikin tapahtumia pääkaupunkiseudulle, opettanut kansantanssia mm. Opiskelijakansantanssijoissa, lukuisilla viikonloppukursseilla, Kaustisen Katajapajoissa sekä Katajan teemapajoissa. Marin tuottamia tapahtumia ovat mm. Tupajamit - neljän folkin bileet, usean ryhmän yhteistyökonsertit Elokarkelot sekä Susilykkyä, Alppipuiston kesän festarikokonaisuuteen kuuluva Puistokarkelot useana vuonna, Suomalainen kasvatustiede 150 vuotta, jossa osallistujina oli kasvatustieteen edustajia ympäri Suomea sekä lukuisia juhlia ja iltamia eri yhteyksissä. Mari tuotti Museoviraston ja Kansanmusiikin ja Kansantanssin Edistämiskeskuksen Tanssitupa projektin, jossa vapaan kansanomaisen paritanssin ja tanssisoiton tapahtumia käynnistettiin neljään kaupunkiin Suomessa.
     </p>
     <p>
-      Sunt velit et esse incididunt labore laborum ipsum cupidatat commodo laboris incididunt minim ea. Ullamco id eu ullamco adipisicing nostrud laborum excepteur laborum qui ipsum laborum ad. Sunt sunt veniam magna qui cupidatat velit aliquip elit magna aute non sunt. Quis ea cillum id id ad. Lorem et mollit tempor deserunt adipisicing sit aliquip. Nulla pariatur id commodo aliquip in. Aliqua exercitation sunt ipsum ad nulla exercitation irure duis incididunt officia et dolor et cillum. Incididunt esse incididunt reprehenderit et velit incididunt aute velit nulla aliquip sunt irure.
+      Marin intohimona on vapaan kansanomaisen paritanssin mahdollisuuksien luominen tapahtumien ja opetuksen keinoin. Marin unelmana on kasvattaa kansanparitanssin skene yhtä isoksi kuin lavatanssi on tällä hetkellä. Tanssinopetuksessa Maria kiinnostaa parikontaktin eri muodot viemisen ja seuraamisen tutkimisen kautta. Hän on osana Katajaa kehittämässä kansanparitanssiin muista tanssilajeista tuttua pedagogiikkaa, jossa opettajina on sekä viejä, että seuraaja, mikä mahdollistaa tehokkaamman oppimisen erityisesti jatkotasoisessa opetuksessa lisäten visuaalisen inputin määrää ja oppilaiden mahdollisuutta saada palautetta.
     </p>
   </>
 ]
@@ -48,7 +48,7 @@ export default function Teachers({ selected, setSelected }: { selected: number |
     <div className={s.parallax}>
       <div className={s.parallaxBackground}></div>
       <div className={s.teachers}>
-        <h1>Tiimi</h1>
+        <h1>Myllerrystiimi</h1>
 
         {selected === null
           ? (

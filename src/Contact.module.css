@@ -9,6 +9,7 @@
 
   display: grid;
   grid-template-columns: 1fr auto 1fr;
+  order: 4;
 }
 
 .contact h3 {

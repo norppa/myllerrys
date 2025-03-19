@@ -21,15 +21,20 @@ export default function Details() {
 
       <img src='/opetus.png' className={s.leftImage} alt='Opetus' />
       <p>
-        Leirin opetuksessa syvennytään paritanssin eri puoliin.
+        Leirin opetuksessa syvennytään paritanssin eri puoliin intensiivisesti ja kurssilta saa pureskeltavaa niin paljon kuin haluat ottaa vastaan. Opetus tapahtuu kahdella tasolla tarjoten laajan näkökulman kansanomaisen paritanssin eri puoliin. Kummallakin tasolla vaihdetaan paria ja roolia tarjoten tarvittavia taitoja sosiaalisista paritanssitilanteista nauttimiseen. Opetuksen tavoitteena on tarjota uusia lähestymistapoja ja materiaalia vapaaseen tanssiin laajentaen omalla paikkakunnalla tapahtuvaa tanssin oppimista.
       </p>
 
       <p>
-        Perustasolla toivotaan perustaidot kansanomaisten paritanssien askelista tai vahva paritanssikokemus muista lajeista. Tanssitunneilla paneudutaan mm. viemisen ja seuraamisen dynamiikkaan, eri tanssilajien lajityypilliseen hytkeeseen, tanssin ja musiikin yhteyteen sekä vapaaseen improvisaatioon.
+        Leirillä ilmoittaudutaan joko perustason tai jatkotason opetukseen. Huomaathan, että emme valitettavasti reserssien vuoksi pysty vielä tarjoamaan alkeistason opetusta.
+        Valitsemaansa tasoa voi vaihtaa kurssin aikana, mutta luethan tasokuvaukset huolellisesti. Opetusta on viikonlopun aikana 9 tuntia.
       </p>
 
       <p>
-        Jatkotasolla syvennetään parikontaktin käsittelyä sekä musiikin kanssa fraseerausta, etsitään tanssilajeille tyypillistä liikekieltä ja luodaan yhteyksiä muihin paritanssilajeihin. Jatkotasolla toivomme useamman vuoden kansantanssikokemusta ja vahvaa aiempaa harrastuneisuutta tai opintoja kansanparitansseista.
+        Perustasolla toivotaan perustaidot kansanomaisten paritanssien askelista tai vahva paritanssikokemus muista lajeista. Tanssitunneilla paneudutaan mm. viemisen ja seuraamisen dynamiikkaan, eri tanssilajien lajityypilliseen hytkeeseen, tanssin ja musiikin yhteyteen sekä vapaaseen improvisaatioon. Tunneilla käytetään ainakin polskan, sottiisin, valssin, polkan ja masurkan askelikkoja. Nämä tanssilajien perusteet toivotaan olevan hallussa perustasolle ilmoittauduttaessa. Lisäksi opettajat saattavat käyttää myös muita askelikkoja, mutta näitä ei oleteta osattavan etukäteen
+      </p>
+
+      <p>
+        Jatkotasolla toivomme useamman vuoden kansantanssikokemusta ja vahvaa aiempaa harrastuneisuutta tai opintoja kansanparitansseista. Opetuksessa syvennetään parikontaktin käsittelyä sekä musiikin kanssa fraseerausta, etsitään tanssilajeille tyypillistä liikekieltä ja luodaan yhteyksiä muihin paritanssilajeihin. Jatkotasolle ilmoittautuessa polskan, sottiisin, valssin, polkan, hambon ja masurkan askelikot tulee olla luontevasti hallussa, sekä kokemusta viennistä ja seuraamisesta. Opettaja saattaa käyttää myös muita tanssilajeja ja askelikkoja haastaen oppilaita uusiin asioihin.
       </p>
 
       <div id='Jamit' className='anchor' />
@@ -38,14 +43,23 @@ export default function Details() {
       <img src='/jamit.png' className={s.leftImage} alt='Jamit' />
 
       <p>
-        Iltajameissa päästään ottamaan kurssien opit käyttöön ja pistämään jalalla koreasti svengaavan musiikin tahtiin. Jamimeininkiä on sekä perjantaina että lauantaina alkaen klo 18 ja päättyen kun tanssijat ja soittajat kupsahtavat nukkumaan. Puitteet tarjoaa Niemen navetta, jossa päästään autenttiseen folkkitunnelmaan. Illan aikana on tarjolla iltaruoka, jotta jaksetaan riehua myöhään yöhön asti. Navetassa ei ole alkoholitarjoilua, joten varustauduthan siltä osin henkilökohtaisin eväin mikäli sellaisia kaipaat.
+        Myllerrys tarjoaa vapaata tanssijamittelua kahtena iltana!
       </p>
       <p>
-        Lauantaiohjelman aloittaa Aitoniemen Orkesteri, joka nostaa tunnelman kattoon raisulla pelimannimeiningillä. Tanssilattilla on avoin sekahaku koko illan ja kaikki ovat tervetulleita niin viemään kuin seuraamaan. Virallisen bändin väsähdettyä jatketaan vapaamuotoisilla jameilla, joten jos mielesi tekee istahtaa soittajan tuolille, tuo mukaan oma soittimesi ja liity pelimanneihin.
+        Perjantaina soittolistat tarjoavat loppumattoman mahdollisuuden tanssia tuttujen ja uusien ihmisten kanssa, kokeilla päivän aikana opittuja taitoja ja nauttia Aitomäen tunnelmasta. Perjantaibileessä tutustut oman treenitasosi lisäksi toisen treenitason ihmisiin ja uskallat lähteä tanssimaan vieraan ihmisen kanssa. Mikäli soitat jotain instrumenttia, on lava vapaa myös soittojamittelulle. Bileet alkavat klo ?? yhteisellä tanssituksella ja jatkuvat tämän jälkeen niin pitkään kuin tanssijoita tanssituttaa.
       </p>
 
-      <div id='Majoitus' className='anchor' />
-      <h2>Majoitus</h2>
+      <p>
+        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu Konepajanpuisto-orkesteri! (linkki) Ja myöhemmin illasta jamittelijat lähialueilta ja muualta. Hikistä tunnelmaa keventää Hysssss raikkaalla tarjonnallaan. Illan aikana kaikki saavat hakea kaikkia mistä roolista käsin tahansa, tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat klo ?? ja jatkuvat pikkutunneille tai vielä pidempään.
+      </p>
+      <p>
+        Myllerryksen iltatansseissa toteutetaan Katajan tanssietikettiä. Kurkkaa etiketti täältä!
+      </p>
+
+
+
+      <div id='MajoitusJaRuokailut' className='anchor' />
+      <h2>Majoitus ja ruokailut</h2>
 
 
       <img src='/majoitus.png' className={s.leftImage} alt='Jamit' />
@@ -53,7 +67,21 @@ export default function Details() {
 
 
       <p>
-        Myllerrykseen voi osallistua monin eritavoin majoittumalla. Parhaan leirifiiliksen saat majoittumalla Myllerryksen majoitusvaihtoehdoissa, mutta omatoiminen majoittuminen hotellissa tai kotona (mikäli asut lähistöllä) onnistuu myös. Kaikkiin Myllerryksen paketteihin sisältyy opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Leiri tapahtuu <a href='https://www.seurantalot.fi/talot/1820-aitom%C3%A4en-nuorisoseura-ry-1009'>Aitomäen nuorisoseuran talolla</a> sekä viereisen Niemen navetan ylisillä.
+
+        Myllerrykseen voi osallistua monin eritavoin majoittumalla. Parhaan leirifiiliksen saat majoittumalla Myllerryksen majoitusvaihtoehdoissa, mutta omatoiminen majoittuminen hotellissa tai kotona (mikäli asut lähistöllä) onnistuu myös.
+      </p>
+      <p>
+        Kaikkiin Myllerryksen paketteihin sisältyy yhdeksän tuntia opetusta, kahdet iltabileet, ruokailut ja peseytymismahdollisuus.
+      </p>
+
+      <p>
+        Leirin hintaan kuuluvat kaikki leirin aikana tapahtuvat ateriat. Ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Mikäli sinulla on ruoka-ainerajoitteita, ilmoitathan niistä ilmoittautuessasi, jotta pystymme tarjoamaan kaikille tukevat ateriat.
+      </p>
+      <p>
+        Leiriin kuuluu seitsemän ruokailua:
+        <br />&nbsp;&#x2022; Perjantai: iltaruoka
+        <br />&nbsp;&#x2022; Lauantai: aamiainen, lounas, kahvi, päivällinen, iltaruoka
+        <br />&nbsp;&#x2022; Sunnuntai: aamiainen
       </p>
 
       <div className={s.mapContainer}>
@@ -110,19 +138,6 @@ export default function Details() {
 
       </div>
 
-      <div id='Ruokailut' className='anchor' />
-      <h2>Ruokailut</h2>
-      <img src='/ruokailut.png' className={s.leftImage} alt='Ruokailut' />
-      <p>
-        Leirin hintaan kuuluvat kaikki leirin aikana tapahtuvat ateriat. Ruokailu tapahtuu Aitomäen nuorisotalolla. Mikäli sinulla on ruoka-ainerajoitteita, ilmoitathan niistä ilmoittautuessasi, jotta pystymme tarjoamaan kaikille tukevat ateriat.
-      </p>
-      <p>
-        Leiriin kuuluu seitsemän ruokailua:
-        <br />&nbsp;&#x2022; Perjantai: iltaruoka
-        <br />&nbsp;&#x2022; Lauantai: aamiainen, lounas, kahvi, päivällinen, iltaruoka
-        <br />&nbsp;&#x2022; Sunnuntai: aamiainen
-      </p>
-
       <div id='Ilmoittautuminen' className='anchor' />
       <h2>Ilmoittautuminen</h2>
       <img src='/ilmo.png' className={s.leftImage} alt='Ilmoittautuminen' />
@@ -137,6 +152,19 @@ export default function Details() {
 
       <p>
         Ilmoittautuminen tehdään Katajan ilmoittautumislomakkeella. Ilmoittautumaan mahtuu 60 ensimmäistä ja paikat täyttyvät vauhdilla, joten ole nopea! Mikäli paikat tulevat täyteen, voit ilmoittautua varasijalle.
+      </p>
+
+      <p>
+        Mahdollisen peruutuksen voi tehdä veloituksetta kuukautta ennen. Tämän jälkeen valitsemasi leiripaketti veloitetaan kokonaisuudessaan. Voit kuitenkin myydä pakettisi eteenpäin jollekin toiselle.
+        <br />
+        <br />
+
+        Huom! Ruokavalioiden muutokset voidaan huomioida vain kolmea viikkoa ennen ilmoitettaessa!
+        <br />
+        <br />
+
+        Mikäli leiri tulee täyteen ja jonoon ilmoittautuu ihmisiä, voimme yhyttää peruuttajan ja jonoon ilmoittautuneen. Ilmoita siis peruutuksestasi hyvissä ajoin!
+
       </p>
 
       <a className='link'>Ilmoittaudu Myllerrykseen</a>

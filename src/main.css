@@ -16,6 +16,13 @@ body {
   box-sizing: inherit;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  grid-template-columns: auto;
+}
+
 h1, h2, h3 {
   font-family: 'Averia Serif Libre', serif;
   text-align: center;

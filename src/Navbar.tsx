@@ -8,25 +8,29 @@ const DesktopNavbar = () => {
     <div className='Navbar'>
       <a id='logo' href='/'>Aitomäen Myllerrys</a>
       <div className='menu'>
-        <div className='dropdown'>
+        {/* <div className='dropdown'>
           <a href='#Info'>INFO</a>
           <div className='dropdown-content'>
             <a href='#Opetus'>Opetus</a>
             <a href='#Jamit'>Jamit</a>
-            <a href='#Majoitus'>Majoitus</a>
-            <a href='#Ruokailut'>Ruokailut</a>
+            <a href='#MajoitusJaRuokailut'>Majoitus ja ruokailut</a>
+            <a href='#Majoituspaketit'>Majoituspaketit</a>
             <a href='#Ilmoittautuminen'>Ilmoittaudu</a>
           </div>
-        </div>
+        </div> */}
 
-        <div className='dropdown'>
-          <a href='#Teachers'>OPETTAJAT</a>
+        {/* <div className='dropdown'>
+          <a href='#Teachers'>MYLLERRYSTIIMI</a>
           <div className='dropdown-content'>
             <a href='#Jari'>Jari Haavisto</a>
             <a href='#Maiju'>Maiju Laurila</a>
             <a href='#Arttu'>Arttu Peltoniemi</a>
+            <a href='#Mari'>Mari Solja</a>
           </div>
-        </div>
+        </div> */}
+        <a href='#Opetus'>Opetus</a>
+        <a href='#Jamit'>Jamit</a>
+        <a href='#MajoitusJaRuokailut'>Majoitus ja ruokailut</a>
         <a href='#Ilmoittautuminen'>ILMOITTAUDU</a>
       </div>
     </div>
@@ -62,16 +66,17 @@ const MobileNavbar = () => {
 
         <a href='#Opetus'>Opetus</a>
         <a href='#Jamit'>Jamit</a>
-        <a href='#Majoitus'>Majoitus</a>
-        <a href='#Ruokailut'>Ruokailut</a>
-        <a href='#Ilmoittautuminen'>Hinnat</a>
+        <a href='#MajoitusJaRuokailut'>Majoitus ja ruokailut</a>
+        <a href='#Majoituspaketit'>Majoituspaketit</a>
+        <a href='#Ilmoittautuminen'>Ilmoittaudu</a>
         <div className='spacer' />
 
-        <a href='#Teachers'>OPETTAJAT</a>
+        {/* <a href='#Teachers'>MYLLERRYSTIIMI</a>
         <a href='#Jari'>Jari Haavisto</a>
         <a href='#Maiju'>Maiju Laurila</a>
         <a href='#Arttu'>Arttu Peltoniemi</a>
-        <div className='spacer' />
+        <a href='#Mari'>Mari Solja</a>
+        <div className='spacer' /> */}
 
         <a href='#Ilmoittautuminen'>ILMOITTAUDU</a>
       </div>}

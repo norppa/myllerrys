@@ -4,6 +4,7 @@
   font-family: 'Pridi', serif;
   font-weight: 300;
   font-size: 16pt;
+  order: 3;
 }
 
 
@@ -28,7 +29,7 @@
 
 .middleImage {
   width: 40%;
-  margin: auto;
+  margin: 0 auto 30px auto;
 }
 
 .mapContainer {
@@ -65,11 +66,28 @@
 @media screen and (width <=640px) {
   .details {
     padding-bottom: 0px;
+
+    order: 2;
   }
+
+  .firstParagraph {
+    padding: 0px 20px;
+  }
+
   .leftImage {
     float: none;
     margin: 0 auto;
     width: 80%;
+  }
+
+  .middleImage {
+    display: none;
+  }
+
+  .packages {
+    margin: 20px 0px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 }
 

@@ -5,6 +5,7 @@
   font-weight: 300;
   font-size: 16pt;
   padding: 75px 175px;
+  order: 1;
 }
 
 .firstParagraph {
@@ -89,7 +90,6 @@
 @media screen and (width <=1200px) {
   .info {
     padding: 75px 60px;
-    font-size: 15pt;
   }
 
   .firstParagraph {
@@ -100,7 +100,6 @@
 @media screen and (width <=1000px) {
   .info {
     padding: 75px 20px;
-    font-size: 14pt;
   }
 
   .info h1 {
@@ -149,10 +148,7 @@
     padding: 0;
   }
 
-  .grid img {
-    width: 100%;
-    padding: 20px;
-    margin-top: 30px;
+  .grid {
+    display: none;
   }
-
 }

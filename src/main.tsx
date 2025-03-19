@@ -28,6 +28,7 @@ function Myllerrys() {
       <Details />
 
       <Contact />
+
     </div>
   )
 }

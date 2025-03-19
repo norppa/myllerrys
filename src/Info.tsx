@@ -7,7 +7,7 @@ export default function Info() {
       <h2>16.-18.8.2024</h2>
 
       <p className={s.firstParagraph}>
-        Aitomäen Myllerrys vastaa paritanssin nälkäisten kutsuun ja tarjoaa kaikelle kansalle mahdollisuuden opiskella kansanomaisia paritansseja kolmen päivän ajan, kolmen opettajan tunneilla, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua.
+        Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
       </p>
       <a className='link'>
         Ilmottaudu mukaan!
@@ -22,13 +22,13 @@ export default function Info() {
 
           <ul>
             <li>
-              Opetuksen keskiössä kansanomaiset paritanssit ja jamimeininki.
+              Opetuksen keskiössä on kansanomaiset paritanssit ja vapaan tanssin jamimeininki
             </li>
             <li>
-              Kaksi tasoa: perustaso ja edistyneet.
+              Opetuksessa on kaksi tasoa: perustaso ja edistyneet.
             </li>
             <li>
-              Opettajina vapaan jamitanssin kovimmat nimet Jari Haavisto, Maiju Laurila ja Arttu Peltoniemi.
+              Opettajina on kansanomaisen paritanssin kovimmat nimet Jari Haavisto, Maiju Laurila ja Arttu Peltoniemi.
             </li>
           </ul>
 
@@ -44,13 +44,13 @@ export default function Info() {
           <h2 className={s.h2}>Jamit</h2>
           <ul>
             <li>
-              Iltajamit perjantaina ja lauantaina.
+              Vapaan tanssin bileet perjantaina ja lauantaina.
             </li>
             <li>
-              Aito(mäen) navettatunnelma.
+              Lauantaina menoa vauhdittaa livemuusikot!
             </li>
             <li>
-              Legendaarinen konepajanpuisto-orkesteri ja avoimet jamit.
+              Tiedossa Aito(mäen) navettatunnelmaa!
             </li>
           </ul>
 
@@ -66,7 +66,7 @@ export default function Info() {
           <h2 className={s.h2}>Majoitus ja ruokailut</h2>
           <ul>
             <li>
-              Myllerryspakettiin kuuluu täysihoito sisältäen majoituksen ja ruokailut.
+            Myllerryspakettiin kuuluvat ruokailut ja valitsemasi majoituspaketti.
             </li>
             <li>
               Majoitusvaihtoehtoina lattiamajoitus seurantalolla, telttamajoitus pihalla tai hotellimajoitus Kouvolassa.
@@ -75,7 +75,7 @@ export default function Info() {
               Ruokaa on tarjolla yhdeksän aterian verran, aamupaloista iltapaloihin.
             </li>
           </ul>
-          <a className='link' href='#Majoitus'>
+          <a className='link' href='#MajoitusJaRuokailut'>
             Lue lisää majoituksesta ja ruokailuista
           </a>
         </div>

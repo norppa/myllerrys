@@ -3,7 +3,7 @@
   overflow: hidden;
   height: fit-content;
   padding-bottom: 30px;
-  /* Adjust as needed */
+  order: 2;
 }
 
 .parallaxBackground {
@@ -161,6 +161,10 @@
 }
 
 @media screen and (max-width: 640px) {
+  .parallax {
+    order: 3;
+  }
+  
   .profile {
     font-size: 12pt;
   }
