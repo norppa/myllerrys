@@ -11,7 +11,7 @@ export default function Details() {
       <div id='Info' className='anchor' />
       <h1>Tietoa leiristä</h1>
       <p className={s.firstParagraph}>
-        Aitomäen Myllerrys vastaa paritanssin nälkäisten kutsuun ja tarjoaa kaikelle kansalle mahdollisuuden opiskella kansanomaisia paritansseja kolmen päivän ajan, kolmen opettajan tunneilla, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua.
+        Leiri järjestetään Kouvolan Aitomäessä, <a className='external-link' href='https://www.aitomaenns.net/'>Aitomäen seurantalolla</a> sekä muutaman sadan metrin päässä olevan Niemen navetan ylisillä. Majoitus ja ruokailut tapahtuvat seurantalolla sekä navetan pihapiirissä ja iltabileitä tanssitaan navetalla kunnes aamu sarastaa.
       </p>
 
 
@@ -21,11 +21,11 @@ export default function Details() {
 
       <img src='/opetus.png' className={s.leftImage} alt='Opetus' />
       <p>
-        Leirin opetuksessa syvennytään paritanssin eri puoliin intensiivisesti ja kurssilta saa pureskeltavaa niin paljon kuin haluat ottaa vastaan. Opetus tapahtuu kahdella tasolla tarjoten laajan näkökulman kansanomaisen paritanssin eri puoliin. Kummallakin tasolla vaihdetaan paria ja roolia tarjoten tarvittavia taitoja sosiaalisista paritanssitilanteista nauttimiseen. Opetuksen tavoitteena on tarjota uusia lähestymistapoja ja materiaalia vapaaseen tanssiin laajentaen omalla paikkakunnalla tapahtuvaa tanssin oppimista.
+        Leirin opetuksessa syvennytään paritanssin eri puoliin intensiivisesti ja kurssilta saat taatusti pureskeltavaa niin paljon kuin haluat ottaa vastaan. Opetus tapahtuu kahdella tasolla tarjoten laajan näkökulman kansanomaisen paritanssin eri puoliin. Kummallakin tasolla vaihdetaan paria ja roolia tarjoten tarvittavia taitoja sosiaalisista paritanssitilanteista nauttimiseen. Opetuksen tavoitteena on tarjota uusia lähestymistapoja ja materiaalia vapaaseen tanssiin laajentaen omalla paikkakunnalla tapahtuvaa tanssin oppimista.
       </p>
 
       <p>
-        Leirillä ilmoittaudutaan joko perustason tai jatkotason opetukseen. Huomaathan, että emme valitettavasti reserssien vuoksi pysty vielä tarjoamaan alkeistason opetusta.
+        Leirillä ilmoittaudutaan joko perustason tai jatkotason opetukseen. Huomaathan, että emme valitettavasti resurssien vuoksi pysty vielä tarjoamaan alkeistason opetusta.
         Valitsemaansa tasoa voi vaihtaa kurssin aikana, mutta luethan tasokuvaukset huolellisesti. Opetusta on viikonlopun aikana 9 tuntia.
       </p>
 
@@ -46,14 +46,14 @@ export default function Details() {
         Myllerrys tarjoaa vapaata tanssijamittelua kahtena iltana!
       </p>
       <p>
-        Perjantaina soittolistat tarjoavat loppumattoman mahdollisuuden tanssia tuttujen ja uusien ihmisten kanssa, kokeilla päivän aikana opittuja taitoja ja nauttia Aitomäen tunnelmasta. Perjantaibileessä tutustut oman treenitasosi lisäksi toisen treenitason ihmisiin ja uskallat lähteä tanssimaan vieraan ihmisen kanssa. Mikäli soitat jotain instrumenttia, on lava vapaa myös soittojamittelulle. Bileet alkavat klo ?? yhteisellä tanssituksella ja jatkuvat tämän jälkeen niin pitkään kuin tanssijoita tanssituttaa.
+        Perjantaina soittolistat tarjoavat loppumattoman mahdollisuuden tanssia tuttujen ja uusien ihmisten kanssa, kokeilla päivän aikana opittuja taitoja ja nauttia Aitomäen tunnelmasta. Perjantaibileessä tutustut oman treenitasosi lisäksi toisen treenitason ihmisiin ja uskallat lähteä tanssimaan vieraan ihmisen kanssa. Mikäli soitat jotain instrumenttia, on lava vapaa myös soittojamittelulle. Bileet alkavat yhteisellä tanssituksella ja jatkuvat tämän jälkeen niin pitkään kuin tanssijoita tanssituttaa.
       </p>
 
       <p>
-        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu Konepajanpuisto-orkesteri! (linkki) Ja myöhemmin illasta jamittelijat lähialueilta ja muualta. Hikistä tunnelmaa keventää Hysssss raikkaalla tarjonnallaan. Illan aikana kaikki saavat hakea kaikkia mistä roolista käsin tahansa, tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat klo ?? ja jatkuvat pikkutunneille tai vielä pidempään.
+        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri!</a>  Ja myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Hikistä tunnelmaa keventää Hysssss raikkaalla tarjonnallaan. Illan aikana kaikki saavat hakea kaikkia mistä roolista käsin tahansa, tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
       </p>
       <p>
-        Myllerryksen iltatansseissa toteutetaan Katajan tanssietikettiä. Kurkkaa etiketti täältä!
+        Myllerryksen iltatansseissa toteutetaan <a href="" className='external-link'>Katajan tanssietikettiä</a> ja <a href='https://kansantanssijamit.fi/katajan_turvallisemman_tilan_periaatteet.pdf' className='external-link'></a>Turvallisemman tilan periaatteita.
       </p>
 
 
@@ -61,21 +61,29 @@ export default function Details() {
       <div id='MajoitusJaRuokailut' className='anchor' />
       <h2>Majoitus ja ruokailut</h2>
 
-
       <img src='/majoitus.png' className={s.leftImage} alt='Jamit' />
 
-
-
       <p>
-
         Myllerrykseen voi osallistua monin eritavoin majoittumalla. Parhaan leirifiiliksen saat majoittumalla Myllerryksen majoitusvaihtoehdoissa, mutta omatoiminen majoittuminen hotellissa tai kotona (mikäli asut lähistöllä) onnistuu myös.
       </p>
       <p>
         Kaikkiin Myllerryksen paketteihin sisältyy yhdeksän tuntia opetusta, kahdet iltabileet, ruokailut ja peseytymismahdollisuus.
       </p>
+      <p>
+        Leiripaikan osoite on Aitomäentie 1007. Leirille on helppo saapua omalla autolla. Junalla pääsee Kouvolaan yhdeksän kilometrin päähän. Suunnitelmissa on jälleen yhteinen bussikuljetus juna-asemalta Aitomäkeen leirille ja takaisin. Tästä lisää infoa lähempänä leiriä osallistujille.
+      </p>
 
       <p>
-        Leirin hintaan kuuluvat kaikki leirin aikana tapahtuvat ateriat. Ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Mikäli sinulla on ruoka-ainerajoitteita, ilmoitathan niistä ilmoittautuessasi, jotta pystymme tarjoamaan kaikille tukevat ateriat.
+        Leirin ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
+        Leirin hintaan kuuluu seitsemän ruokailua
+        Pe iltaruoka.
+        La aamiainen, lounas, kahvi, päivällinen, iltaruoka
+        Su aamiainen
+
+      </p>
+
+      <p>
+        Leirin ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
       </p>
       <p>
         Leiriin kuuluu seitsemän ruokailua:
@@ -126,12 +134,12 @@ export default function Details() {
 
       <h2>Kaveripaketit</h2>
       <div className={s.packages}>
-        <h3>Kaveripaketti “Myötämäki” +50€ (tai vaihtoehtoisesti 20€ / 30€ / 50€)</h3>
+        <h3>Kaveripaketti “Myötämäki” +20€ / +30€ / +50€</h3>
         <p>
-          Jos osallistut leirille, niin tämä paketti ostetaan Majoituspaketin lisäksi! Myllerrys haluaa mahdollistaa harrastamisen myös vähempivaraisille vapaan kansanomaisen paritanssin tanssijoille. Voit maksaa 50€ enemmän ja tämä raha jaetaan tasan alentamaan “Vastamäki” kaveripaketin ostajien kurssimaksua. Mikäli et halua nimeäsi kerrottavan Myllerryksessä, kerrothan siitä meille. (muussa tapauksessa kerromme tämän paketin ostaneiden nimet Myllerryksen päätöshetkessä)
+          Jos osallistut leirille, niin tämä paketti ostetaan Majoituspaketin lisäksi! Myllerrys haluaa mahdollistaa harrastamisen myös vähempivaraisille vapaan kansanomaisen paritanssin tanssijoille. Voit maksaa omasta leiristäsi vähän enemmän ja tämä raha jaetaan tasan alentamaan toisen kaveripaketin ostajien kurssimaksua. Mikäli et halua nimeäsi kerrottavan Myllerryksessä, kerrothan siitä meille. (muussa tapauksessa kerromme tämän paketin ostaneiden nimet Myllerryksen päätöshetkessä)
         </p>
 
-        <h3>Kaveripaketti “Vastamäki” -?? € etiäpäin sanoi mummo lumessa</h3>
+        <h3>Kaveripaketti “Vastamäki” -?? €</h3>
         <p>
           Jos olet hankalassa taloudellisessa tilanteessa, mutta haluaisit ilmoittautua Myllerrykseen, niin valitse tämä paketti Majoituspaketin lisäksi. Pakettia ei voi valita pelkästään. Huomaathan, että alennusmäärä riippuu “Myötämäki” -paketin ostaneiden ja muiden tämän paketin toivoneiden määrästä! Emme julkaise tai kerro nimeäsi missään. Tieto mahdollisesta alennuksesta tulee noin kuukautta ennen.
         </p>
@@ -155,22 +163,17 @@ export default function Details() {
       </p>
 
       <p>
-        Mahdollisen peruutuksen voi tehdä veloituksetta kuukautta ennen. Tämän jälkeen valitsemasi leiripaketti veloitetaan kokonaisuudessaan. Voit kuitenkin myydä pakettisi eteenpäin jollekin toiselle.
-        <br />
-        <br />
-
-        Huom! Ruokavalioiden muutokset voidaan huomioida vain kolmea viikkoa ennen ilmoitettaessa!
-        <br />
-        <br />
-
-        Mikäli leiri tulee täyteen ja jonoon ilmoittautuu ihmisiä, voimme yhyttää peruuttajan ja jonoon ilmoittautuneen. Ilmoita siis peruutuksestasi hyvissä ajoin!
-
+        Mahdollisen peruutuksen voi tehdä veloituksetta kuukautta ennen. Tämän jälkeen valitsemasi leiripaketti veloitetaan kokonaisuudessaan. Voit esteen sattuessa kuitenkin myydä pakettisi eteenpäin jollekin toiselle.
+      </p>
+      <p>
+        <b>Huom!</b> Ruokavalioiden muutokset voidaan huomioida vain kolmea viikkoa ennen ilmoitettaessa!
+      </p>
+      <p>
+        Mikäli leiri tulee täyteen ja jonoon ilmoittautuu ihmisiä, voimme yhyttää peruutusajan jälkeen peruuttavan henkilön ja jonoon ilmoittautuneen. Ilmoita siis peruutuksestasi hyvissä ajoin, vaikka ilmainen peruutusaika olisikin jo mennyt!
       </p>
 
-      <a className='link'>Ilmoittaudu Myllerrykseen</a>
+      <a className={'link ' + s.ilmolink}>Ilmoittaudu Myllerrykseen</a>
 
-      <br />
-      <br />
       <img src='/navettakuva.png' className={s.middleImage} alt='Viimeinen pari navetassa' />
 
     </div>

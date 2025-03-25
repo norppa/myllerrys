@@ -77,6 +77,10 @@ img {
   top: -65px;
 }
 
+.external-link {
+  text-decoration: underline;
+}
+
 @media screen and (width <=1000px) {
   h1 {
     font-size: 40pt;

@@ -31,6 +31,7 @@ const DesktopNavbar = () => {
         <a href='#Opetus'>Opetus</a>
         <a href='#Jamit'>Jamit</a>
         <a href='#MajoitusJaRuokailut'>Majoitus ja ruokailut</a>
+        <a href='#Myllerrystiimi'>Tiimi</a>
         <a href='#Ilmoittautuminen'>ILMOITTAUDU</a>
       </div>
     </div>
@@ -68,6 +69,7 @@ const MobileNavbar = () => {
         <a href='#Jamit'>Jamit</a>
         <a href='#MajoitusJaRuokailut'>Majoitus ja ruokailut</a>
         <a href='#Majoituspaketit'>Majoituspaketit</a>
+        <a href='#Myllerrystiimi'>Tiimi</a>
         <a href='#Ilmoittautuminen'>Ilmoittaudu</a>
         <div className='spacer' />
 

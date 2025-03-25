@@ -32,15 +32,16 @@ const descriptions = [
 
   <>
     <p>
-      Mari Solja on taidealan sekatyöläinen, Kasvatustieteen maisteri ja pitkän linjan freelance- tuottaja. Mari on pitkään tuottanut kansantanssin ja kansanmusiikin tapahtumia pääkaupunkiseudulle, opettanut kansantanssia mm. Opiskelijakansantanssijoissa, lukuisilla viikonloppukursseilla, Kaustisen Katajapajoissa sekä Katajan teemapajoissa. Marin tuottamia tapahtumia ovat mm. Tupajamit - neljän folkin bileet, usean ryhmän yhteistyökonsertit Elokarkelot sekä Susilykkyä, Alppipuiston kesän festarikokonaisuuteen kuuluva Puistokarkelot useana vuonna, Suomalainen kasvatustiede 150 vuotta, jossa osallistujina oli kasvatustieteen edustajia ympäri Suomea sekä lukuisia juhlia ja iltamia eri yhteyksissä. Mari tuotti Museoviraston ja Kansanmusiikin ja Kansantanssin Edistämiskeskuksen Tanssitupa projektin, jossa vapaan kansanomaisen paritanssin ja tanssisoiton tapahtumia käynnistettiin neljään kaupunkiin Suomessa.
+      Mari Solja on taidealan sekatyöläinen, kasvatustieteen maisteri ja pitkän linjan freelance- tuottaja. Mari on pitkään tuottanut kansantanssin ja kansanmusiikin tapahtumia pääkaupunkiseudulle. Marin tuottamia tapahtumia ovat mm. Tupajamit - neljän folkin bileet, Alppipuiston kesän festarikokonaisuuteen kuuluva Puistokarkelot useana vuonna ja usean ryhmän yhteistyökonsertit Elokarkelot sekä Susilykkyä. Viime syksynä Mari pääsi edistämään rakastamansa kansanomaisen paritanssin mahdollisuuksia. Hän tuotti Museoviraston ja Kansanmusiikin ja Kansantanssin Edistämiskeskuksen Tanssitupa projektin, jossa vapaan kansanomaisen paritanssin ja tanssisoiton tapahtumia käynnistettiin neljään kaupunkiin Suomessa. Mari on myös opettanut kansantanssia mm. Opiskelijakansantanssijoissa, lukuisilla viikonloppukursseilla, Kaustisen Katajapajoissa sekä Katajan teemapajoissa.
     </p>
     <p>
-      Marin intohimona on vapaan kansanomaisen paritanssin mahdollisuuksien luominen tapahtumien ja opetuksen keinoin. Marin unelmana on kasvattaa kansanparitanssin skene yhtä isoksi kuin lavatanssi on tällä hetkellä. Tanssinopetuksessa Maria kiinnostaa parikontaktin eri muodot viemisen ja seuraamisen tutkimisen kautta. Hän on osana Katajaa kehittämässä kansanparitanssiin muista tanssilajeista tuttua pedagogiikkaa, jossa opettajina on sekä viejä, että seuraaja, mikä mahdollistaa tehokkaamman oppimisen erityisesti jatkotasoisessa opetuksessa lisäten visuaalisen inputin määrää ja oppilaiden mahdollisuutta saada palautetta.
+      Marin intohimona on vapaan kansanomaisen paritanssin mahdollisuuksien luominen tapahtumien ja opetuksen keinoin. Periaatteena kaikessa tuottamisessa on, että asia tehdään isosti ja niin että osallistujilla hauskaa tai ei ollenkaan. Marin unelmana on kasvattaa kansanparitanssin skene yhtä isoksi kuin lavatanssi on tällä hetkellä.
     </p>
   </>
 ]
 
 const teachers = ['Jari Haavisto', 'Maiju Laurila', 'Arttu Peltoniemi', 'Mari Solja']
+const titles = ['Opettaja', 'Opettaja', 'Opettaja', 'Tuottaja']
 
 export default function Teachers({ selected, setSelected }: { selected: number | null, setSelected: (i: number | null) => void }) {
 
@@ -48,6 +49,7 @@ export default function Teachers({ selected, setSelected }: { selected: number |
     <div className={s.parallax}>
       <div className={s.parallaxBackground}></div>
       <div className={s.teachers}>
+        <div id='Myllerrystiimi' className='anchor' />
         <h1>Myllerrystiimi</h1>
 
         {selected === null
@@ -56,22 +58,22 @@ export default function Teachers({ selected, setSelected }: { selected: number |
               {teachers.map((teacher, i) => (
                 <div onClick={() => setSelected(i)}>
                   <img src={`/profile_${teacher.toLowerCase().replace(' ', '_')}.png`} alt={teacher} />
-                  <h2>{teacher}</h2>
+                  <h2>{teacher}<br />{titles[i]}</h2>
                 </div>
               ))}
             </div>
           )
           : (
             <div className={s.profileContainer}>
-              <FaChevronLeft className={s.chevron} onClick={() => setSelected((selected + 2) % 3)} />
+              <FaChevronLeft className={s.chevron} onClick={() => setSelected((selected + 2) % 4)} />
 
               <div className={s.profile} onClick={() => setSelected(null)}>
-                <h2>{teachers[selected]}</h2>
+                <h2>{teachers[selected]} - {titles[selected]}</h2>
                 <img src={`/profile_${teachers[selected].toLowerCase().replace(' ', '_')}.png`} alt={teachers[selected]} />
                 {descriptions[selected]}
               </div>
 
-              <FaChevronRight className={s.chevron} onClick={() => setSelected((selected + 1) % 3)} />
+              <FaChevronRight className={s.chevron} onClick={() => setSelected((selected + 1) % 4)} />
 
             </div>
           )}
