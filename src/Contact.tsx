@@ -12,7 +12,7 @@ const Contact = () => {
         </a>
       </div>
       <div className={s.facebook}>
-        <a href='https://fb.me/e/1w0s8ez2S'>
+        <a href=''>
           <FaFacebookSquare />
         </a>
       </div>
