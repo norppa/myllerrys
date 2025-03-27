@@ -40,9 +40,16 @@
 }
 
 .packages {
+  background-color: rgba(182, 172, 173, 0.3);
+  border-radius: 6px;
   margin: 20px 80px;
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.packages h3 {
+  margin-top: 40px;
 }
 
 .ilmolink {

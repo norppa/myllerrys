@@ -44,13 +44,13 @@ export default function Info() {
           <h2 className={s.h2}>Jamit</h2>
           <ul>
             <li>
-              Vapaan tanssin bileet perjantaina ja lauantaina.
+              Vuoden eeppisimmät vapaan tanssin bileet perjantaina ja lauantaina.
             </li>
             <li>
-              Lauantaina menoa vauhdittaa livemuusikot!
+              Lauantaina tanhuja tahdittaa kaikkien rakastama Konepajanpuisto-orkesteri.
             </li>
             <li>
-              Tiedossa Aito(mäen) navettatunnelmaa!
+              Jameissa Aito(mäen) navettatunnelma!
             </li>
           </ul>
 

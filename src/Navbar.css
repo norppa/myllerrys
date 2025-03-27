@@ -126,13 +126,14 @@
 
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (width <= 950px) {
   .Navbar {
     height: 50px;
   }
 
   .Navbar #logo {
     font-size: 20pt;
+    display: none;
   }
 
   .Navbar a {
