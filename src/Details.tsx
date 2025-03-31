@@ -50,10 +50,10 @@ export default function Details() {
       </p>
 
       <p>
-        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri!</a>  Ja myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Hikistä tunnelmaa keventää Hysssss raikkaalla tarjonnallaan. Illan aikana kaikki saavat hakea kaikkia mistä roolista käsin tahansa, tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
+        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri!</a>  Ja myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Illan aikana kaikki saavat hakea kaikkia mistä roolista käsin tahansa, tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
       </p>
       <p>
-        Myllerryksen iltatansseissa toteutetaan <a href="" className='external-link'>Katajan tanssietikettiä</a> ja <a href='https://kansantanssijamit.fi/katajan_turvallisemman_tilan_periaatteet.pdf' className='external-link'></a>Turvallisemman tilan periaatteita.
+        Myllerryksessä toteutetaan <a href='https://kansantanssijamit.fi/katajan_turvallisemman_tilan_periaatteet.pdf' className='external-link'>turvallisemman tilan periaatteita.</a> ja jameissa on käytössä <a href='https://kansantanssijamit.fi/katajan_tanssietiketti.pdf' className='external-link'>Katajan tanssietiketti</a>.
       </p>
 
 
@@ -117,12 +117,12 @@ export default function Details() {
 
         <h3>Majoituspaketti “Teltta” 165€</h3>
         <p>
-          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus puolijoukkueteltassa seuraintalon pihalla. Omat nukkumisvarusteet (patja, makuupussi yms) mukaan. Huom. tämä majoitusvaihtoehto on sekamajoitus.
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus Myllerryksen tarjoamassa teltassa seuraintalon pihalla. Riippuen telttamajoituksen osallistujamäärästä järjestämme paikalle joko tavallisia retkitelttoja tai puolijoukketeltan. Omat nukkumisvarusteet (patja, makuupussi yms) mukaan. Huom. tämä majoitusvaihtoehto on sekamajoitus.
         </p>
 
         <h3>Majoituspaketti “Kotimajoitus” 165€</h3>
         <p>
-          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu pyöräily tai ajomatkan päässä asuvan aitomäkeläisen kotona pääosin lattiamajoituksessa (lakanat / makuupussi mukaan). Majoituksia järjestetään niin paljon kuin majoittajia riittää, ilmoittautumisjärjestyksessä. Mikäli majoittajia ei löydy riittävästi, leiriläistä pyydetään vaihtamaan vaihtoehtonsa johonkin muuhun pakettiin.
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu pyöräily tai ajomatkan päässä asuvan aitomäkeläisen kotona pääosin lattiamajoituksessa (lakanat / makuupussi mukaan). Majoituksia järjestetään niin paljon kuin majoittajia riittää, ilmoittautumisjärjestyksessä. Mikäli majoittajia ei löydy riittävästi, leiriläistä pyydetään vaihtamaan vaihtoehtonsa johonkin muuhun pakettiin. Huomaathan, että tässä majoitusvaihtoehdossa emme voi tässä vaiheessa tietää, onko majoituksen tarjoaja itse paikalla leirin aikana.
         </p>
 
         <h3>Majoituspaketti “Seuraintalo” 175€</h3>
@@ -172,7 +172,7 @@ export default function Details() {
         Mikäli leiri tulee täyteen ja jonoon ilmoittautuu ihmisiä, voimme yhyttää peruutusajan jälkeen peruuttavan henkilön ja jonoon ilmoittautuneen. Ilmoita siis peruutuksestasi hyvissä ajoin, vaikka ilmainen peruutusaika olisikin jo mennyt!
       </p>
 
-      <a className={'link ' + s.ilmolink}>Ilmoittaudu Myllerrykseen</a>
+      <a className={'link ' + s.ilmolink}>Ilmoittautuminen aukeaa 5.5.2025 klo 17:00</a>
 
       <img src='/navettakuva.png' className={s.middleImage} alt='Viimeinen pari navetassa' />
 

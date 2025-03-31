@@ -10,7 +10,7 @@ export default function Info() {
         Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
       </p>
       <a className='link'>
-        Ilmottaudu mukaan!
+        Ilmoittautuminen aukeaa 5.5.2025 klo 17:00
       </a>
 
 
