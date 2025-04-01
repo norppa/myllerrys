@@ -4,7 +4,7 @@ export default function Info() {
   return (
     <div className={s.info}>
       <h1>Aitomäen Myllerrys</h1>
-      <h2>16.-18.8.2024</h2>
+      <h2>16.-18.8.2025</h2>
 
       <p className={s.firstParagraph}>
         Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.

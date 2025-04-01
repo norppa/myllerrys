@@ -50,7 +50,7 @@ export default function Details() {
       </p>
 
       <p>
-        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri!</a>  Ja myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Illan aikana kaikki saavat hakea kaikkia mistä roolista käsin tahansa, tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
+        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri</a> sekä myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Illan aikana kaikki saavat hakea kaikkia, mistä roolista käsin tahansa. Tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän. Ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
       </p>
       <p>
         Myllerryksessä toteutetaan <a href='https://kansantanssijamit.fi/katajan_turvallisemman_tilan_periaatteet.pdf' className='external-link'>turvallisemman tilan periaatteita.</a> ja jameissa on käytössä <a href='https://kansantanssijamit.fi/katajan_tanssietiketti.pdf' className='external-link'>Katajan tanssietiketti</a>.
@@ -74,17 +74,9 @@ export default function Details() {
       </p>
 
       <p>
-        Leirin ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
-        Leirin hintaan kuuluu seitsemän ruokailua
-        Pe iltaruoka.
-        La aamiainen, lounas, kahvi, päivällinen, iltaruoka
-        Su aamiainen
-
+        Leirin ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan joka tapauksessa ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
       </p>
 
-      <p>
-        Leirin ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
-      </p>
       <p>
         Leiriin kuuluu seitsemän ruokailua:
         <br />&nbsp;&#x2022; Perjantai: iltaruoka
@@ -109,10 +101,9 @@ export default function Details() {
 
       <div className={s.packages}>
 
-
         <h3>Majoituspaketti “Peruspaketti” 150€</h3>
         <p>
-          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus omatoimisesti hotellissa https://shorturl.at/HziJD , majoittuen kotonasi, tai omassa teltassa navetan pihapiirissä.
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus omatoimisesti <a href='https://shorturl.at/HziJD' className='external-link'>hotellissa</a>, majoittuen kotonasi, tai omassa teltassa navetan pihapiirissä.
         </p>
 
         <h3>Majoituspaketti “Teltta” 165€</h3>
