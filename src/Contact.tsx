@@ -10,7 +10,7 @@ const Contact = () => {
         </a>
       </div>
       <a className={s.middle} href=''>
-        <img src='/fb_logo.png' alt='Facebook logo' />
+        {/* <img src='/fb_logo.png' alt='Facebook logo' /> */}
       </a>
       <div className={s.right}>
         <div className={s.info}>

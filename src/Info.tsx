@@ -4,10 +4,10 @@ export default function Info() {
   return (
     <div className={s.info}>
       <h1>Aitomäen Myllerrys</h1>
-      <h2>16.-18.8.2025</h2>
+      <h2>8.-10.8.2025</h2>
 
       <p className={s.firstParagraph}>
-        Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaitten iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
+        Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaiden iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
       </p>
       <a className='link'>
         Ilmoittautuminen aukeaa 5.5.2025 klo 17:00
@@ -22,7 +22,7 @@ export default function Info() {
 
           <ul>
             <li>
-              Opetuksen keskiössä on kansanomaiset paritanssit ja vapaan tanssin jamimeininki
+              Opetuksen keskiössä on kansanomaiset paritanssit ja vapaan tanssin jamimeininki.
             </li>
             <li>
               Opetuksessa on kaksi tasoa: perustaso ja edistyneet.
@@ -66,10 +66,10 @@ export default function Info() {
           <h2 className={s.h2}>Majoitus ja ruokailut</h2>
           <ul>
             <li>
-            Myllerryspakettiin kuuluvat ruokailut ja valitsemasi majoituspaketti.
+              Myllerryspakettiin kuuluvat ruokailut ja valitsemasi majoituspaketti.
             </li>
             <li>
-              Majoitusvaihtoehtoina lattiamajoitus seurantalolla, telttamajoitus pihalla tai hotellimajoitus Kouvolassa.
+              Majoitusvaihtoehtoina lattiamajoitus nuorisoseurantalolla, telttamajoitus pihalla tai hotellimajoitus Kouvolassa.
             </li>
             <li>
               Ruokaa on tarjolla yhdeksän aterian verran, aamupaloista iltapaloihin.

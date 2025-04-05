@@ -11,7 +11,7 @@ export default function Details() {
       <div id='Info' className='anchor' />
       <h1>Tietoa leiristä</h1>
       <p className={s.firstParagraph}>
-        Leiri järjestetään Kouvolan Aitomäessä, <a className='external-link' href='https://www.aitomaenns.net/'>Aitomäen seurantalolla</a> sekä muutaman sadan metrin päässä olevan Niemen navetan ylisillä. Majoitus ja ruokailut tapahtuvat seurantalolla sekä navetan pihapiirissä ja iltabileitä tanssitaan navetalla kunnes aamu sarastaa.
+        Leiri järjestetään Kouvolan Aitomäessä, <a className='external-link' href='https://www.aitomaenns.net/'>Aitomäen nuorisoseurantalolla</a> sekä muutaman sadan metrin päässä olevan Niemen navetan ylisillä. Majoitus ja ruokailut tapahtuvat seurantalolla sekä navetan pihapiirissä, ja iltabileitä tanssitaan navetalla kunnes aamu sarastaa.
       </p>
 
 
@@ -21,20 +21,19 @@ export default function Details() {
 
       <img src='/opetus.png' className={s.leftImage} alt='Opetus' />
       <p>
-        Leirin opetuksessa syvennytään paritanssin eri puoliin intensiivisesti ja kurssilta saat taatusti pureskeltavaa niin paljon kuin haluat ottaa vastaan. Opetus tapahtuu kahdella tasolla tarjoten laajan näkökulman kansanomaisen paritanssin eri puoliin. Kummallakin tasolla vaihdetaan paria ja roolia tarjoten tarvittavia taitoja sosiaalisista paritanssitilanteista nauttimiseen. Opetuksen tavoitteena on tarjota uusia lähestymistapoja ja materiaalia vapaaseen tanssiin laajentaen omalla paikkakunnalla tapahtuvaa tanssin oppimista.
+        Leirin opetuksessa syvennytään paritanssin eri puoliin intensiivisesti, ja kurssilta saat taatusti pureskeltavaa niin paljon kuin haluat ottaa vastaan. Opetus tapahtuu kahdella tasolla ja tarjoaa laajan näkökulman kansanomaisen paritanssin eri puoliin. Kummallakin tasolla vaihdetaan paria ja roolia, mikä kehittää tarvittavia taitoja sosiaalisista paritanssitilanteista nauttimiseen. Opetuksen tavoitteena on antaa uusia lähestymistapoja ja materiaalia vapaaseen tanssiin ja laajentaa omalla paikkakunnalla tapahtuvaa tanssin oppimista.
       </p>
 
       <p>
-        Leirillä ilmoittaudutaan joko perustason tai jatkotason opetukseen. Huomaathan, että emme valitettavasti resurssien vuoksi pysty vielä tarjoamaan alkeistason opetusta.
-        Valitsemaansa tasoa voi vaihtaa kurssin aikana, mutta luethan tasokuvaukset huolellisesti. Opetusta on viikonlopun aikana 9 tuntia.
+        Leirillä ilmoittaudutaan joko perustason tai jatkotason opetukseen. Huomaathan, että meillä ei valitettavasti ole vielä resursseja tarjota alkeistason opetusta. Valitsemaansa tasoa voi vaihtaa kurssin aikana, mutta luethan tasokuvaukset huolellisesti. Opetusta on viikonlopun aikana 9 tuntia.
       </p>
 
       <p>
-        Perustasolla toivotaan perustaidot kansanomaisten paritanssien askelista tai vahva paritanssikokemus muista lajeista. Tanssitunneilla paneudutaan mm. viemisen ja seuraamisen dynamiikkaan, eri tanssilajien lajityypilliseen hytkeeseen, tanssin ja musiikin yhteyteen sekä vapaaseen improvisaatioon. Tunneilla käytetään ainakin polskan, sottiisin, valssin, polkan ja masurkan askelikkoja. Nämä tanssilajien perusteet toivotaan olevan hallussa perustasolle ilmoittauduttaessa. Lisäksi opettajat saattavat käyttää myös muita askelikkoja, mutta näitä ei oleteta osattavan etukäteen
+        <b>Perustasolla</b> toivotaan perustaidot kansanomaisten paritanssien askelista tai vahva paritanssikokemus muista lajeista. Tanssitunneilla paneudutaan mm. viemisen ja seuraamisen dynamiikkaan, eri tanssilajien lajityypilliseen hytkeeseen, tanssin ja musiikin yhteyteen sekä vapaaseen improvisaatioon. Tunneilla käytetään ainakin polskan, sottiisin, valssin, polkan ja masurkan askelikkoja. Näiden tanssilajien perusteet toivotaan olevan hallussa perustasolle ilmoittauduttaessa. Lisäksi opettajat saattavat käyttää myös muita askelikkoja, mutta näitä ei oleteta osattavan etukäteen.
       </p>
 
       <p>
-        Jatkotasolla toivomme useamman vuoden kansantanssikokemusta ja vahvaa aiempaa harrastuneisuutta tai opintoja kansanparitansseista. Opetuksessa syvennetään parikontaktin käsittelyä sekä musiikin kanssa fraseerausta, etsitään tanssilajeille tyypillistä liikekieltä ja luodaan yhteyksiä muihin paritanssilajeihin. Jatkotasolle ilmoittautuessa polskan, sottiisin, valssin, polkan, hambon ja masurkan askelikot tulee olla luontevasti hallussa, sekä kokemusta viennistä ja seuraamisesta. Opettaja saattaa käyttää myös muita tanssilajeja ja askelikkoja haastaen oppilaita uusiin asioihin.
+        <b>Jatkotasolla</b> toivomme useamman vuoden kansantanssikokemusta ja vahvaa aiempaa harrastuneisuutta tai opintoja kansanparitansseista. Opetuksessa syvennetään parikontaktin käsittelyä sekä musiikin kanssa fraseerausta, etsitään tanssilajeille tyypillistä liikekieltä ja luodaan yhteyksiä muihin paritanssilajeihin. Jatkotasolle ilmoittautuessa tulee olla polskan, sottiisin, valssin, polkan, hambon ja masurkan askelikot luontevasti hallussa sekä kokemusta viennistä ja seuraamisesta. Opettaja saattaa käyttää myös muita tanssilajeja ja askelikkoja haastaen oppilaita uusiin asioihin.
       </p>
 
       <div id='Jamit' className='anchor' />
@@ -50,7 +49,7 @@ export default function Details() {
       </p>
 
       <p>
-        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri</a> sekä myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Illan aikana kaikki saavat hakea kaikkia, mistä roolista käsin tahansa. Tansseja voi tanssia yhden ihmisen kanssa yhden tai enemmän. Ja paljon tanssivia uskaltaa pyytää tanssimaan heti vesikulauksen jälkeen. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
+        Lauantaina meininkiä tahdittaa viime vuodestakin tuttu <a href='https://konepajanpuisto.gitlab.io/orkesteri/' className='external-link'>Konepajanpuisto-orkesteri</a> sekä myöhemmin illasta soittojamittelijat lähialueilta ja muualta. Illan aikana kaikki saavat hakea kaikkia, mistä roolista tahansa. Tansseja voi tanssia saman ihmisen kanssa yhden tai enemmän. Ja paljon tanssivia uskaltaa pyytää tanssimaan. Kokeile päivän aikana oppimiasi asioita, nauti meiningistä ja tanssi niin paljon kuin jaloista lähtee! Bileet alkavat illalla oppituntien jälkeen ja jatkuvat pikkutunneille tai vielä pidempään.
       </p>
       <p>
         Myllerryksessä toteutetaan <a href='https://kansantanssijamit.fi/katajan_turvallisemman_tilan_periaatteet.pdf' className='external-link'>turvallisemman tilan periaatteita.</a> ja jameissa on käytössä <a href='https://kansantanssijamit.fi/katajan_tanssietiketti.pdf' className='external-link'>Katajan tanssietiketti</a>.
@@ -64,17 +63,17 @@ export default function Details() {
       <img src='/majoitus.png' className={s.leftImage} alt='Jamit' />
 
       <p>
-        Myllerrykseen voi osallistua monin eritavoin majoittumalla. Parhaan leirifiiliksen saat majoittumalla Myllerryksen majoitusvaihtoehdoissa, mutta omatoiminen majoittuminen hotellissa tai kotona (mikäli asut lähistöllä) onnistuu myös.
+        Myllerrykseen voi osallistua monin eri tavoin majoittumalla. Parhaan leirifiiliksen saat majoittumalla Myllerryksen majoitusvaihtoehdoissa, mutta omatoiminen majoittuminen hotellissa tai kotona (mikäli asut lähistöllä) onnistuu myös.
       </p>
       <p>
         Kaikkiin Myllerryksen paketteihin sisältyy yhdeksän tuntia opetusta, kahdet iltabileet, ruokailut ja peseytymismahdollisuus.
       </p>
       <p>
-        Leiripaikan osoite on Aitomäentie 1007. Leirille on helppo saapua omalla autolla. Junalla pääsee Kouvolaan yhdeksän kilometrin päähän. Suunnitelmissa on jälleen yhteinen bussikuljetus juna-asemalta Aitomäkeen leirille ja takaisin. Tästä lisää infoa lähempänä leiriä osallistujille.
+        Leiripaikan osoite on Aitomäentie 1007. Leirille on helppo saapua omalla autolla. Junalla pääsee Kouvolaan yhdeksän kilometrin päähän. Suunnitelmissa on jälleen yhteinen bussikuljetus juna-asemalta Aitomäkeen leirille ja takaisin. Tästä osallistujille lisää infoa lähempänä leiriä.
       </p>
 
       <p>
-        Leirin ruokailu tapahtuu Aitomäen nuorisotalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan joka tapauksessa ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
+        Leirin ruokailu tapahtuu Aitomäen nuorisoseurantalolla. Kaikki ruoka on kasvisruokaa. Ilmoitathan joka tapauksessa ruokavaliosi ja ruoka-aineallergiasi ilmoittautumislomakkeella, jotta pystymme tarjoamaan kaikille tukevat ja turvalliset ateriat.
       </p>
 
       <p>
@@ -101,7 +100,7 @@ export default function Details() {
 
       <div className={s.packages}>
 
-        <h3>Majoituspaketti “Peruspaketti” 150€</h3>
+        <h3>Majoituspaketti ”Peruspaketti” 150€</h3>
         <p>
           Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus omatoimisesti <a href='https://shorturl.at/HziJD' className='external-link'>hotellissa</a>, majoittuen kotonasi, tai omassa teltassa navetan pihapiirissä.
         </p>
