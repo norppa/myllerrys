@@ -105,33 +105,33 @@ export default function Details() {
           Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus omatoimisesti <a href='https://shorturl.at/HziJD' className='external-link'>hotellissa</a>, majoittuen kotonasi, tai omassa teltassa navetan pihapiirissä.
         </p>
 
-        <h3>Majoituspaketti “Teltta” 165€</h3>
+        <h3>Majoituspaketti ”Teltta” 165€</h3>
         <p>
-          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus Myllerryksen tarjoamassa teltassa seuraintalon pihalla. Riippuen telttamajoituksen osallistujamäärästä järjestämme paikalle joko tavallisia retkitelttoja tai puolijoukketeltan. Omat nukkumisvarusteet (patja, makuupussi yms) mukaan. Huom. tämä majoitusvaihtoehto on sekamajoitus.
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus Myllerryksen tarjoamassa teltassa nuorisoseurantalon pihalla. Riippuen telttamajoituksen osallistujamäärästä järjestämme paikalle joko tavallisia retkitelttoja tai puolijoukketeltan. Omat nukkumisvarusteet (patja, makuupussi yms.) mukaan. Huom. tämä majoitusvaihtoehto on sekamajoitus.
         </p>
 
-        <h3>Majoituspaketti “Kotimajoitus” 165€</h3>
+        <h3>Majoituspaketti ”Kotimajoitus” 165 €</h3>
         <p>
-          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu pyöräily tai ajomatkan päässä asuvan aitomäkeläisen kotona pääosin lattiamajoituksessa (lakanat / makuupussi mukaan). Majoituksia järjestetään niin paljon kuin majoittajia riittää, ilmoittautumisjärjestyksessä. Mikäli majoittajia ei löydy riittävästi, leiriläistä pyydetään vaihtamaan vaihtoehtonsa johonkin muuhun pakettiin. Huomaathan, että tässä majoitusvaihtoehdossa emme voi tässä vaiheessa tietää, onko majoituksen tarjoaja itse paikalla leirin aikana.
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu pyöräily- tai ajomatkan päässä asuvan aitomäkeläisen kotona pääosin lattiamajoituksessa (lakanat / makuupussi mukaan). Majoituksia järjestetään niin paljon kuin majoittajia riittää, ilmoittautumisjärjestyksessä. Mikäli majoittajia ei löydy riittävästi, leiriläistä pyydetään vaihtamaan vaihtoehtonsa johonkin muuhun pakettiin. Huomaathan, että tässä majoitusvaihtoehdossa emme voi tässä vaiheessa tietää, onko majoituksen tarjoaja itse paikalla leirin aikana.
         </p>
 
-        <h3>Majoituspaketti “Seuraintalo” 175€</h3>
+        <h3>Majoituspaketti ”Seuraintalo” 175 €</h3>
         <p>
-          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu seuraintalolla, patjamajoituksessa. Tarvitset mukaan oman tyynyn, peiton, makuupussin tai muita tarvitsemiasi nukkumisvarusteita. Myllerrys tarjoaa patjat. Majoitus on pääosin sekamajoitusta, mutta kaksi sukupuolitettua tilaa (mies / nainen / muunsukupuolinen) on mahdollista järjestää. Esitäthän toiveen ilmoittautumisen lisätiedoissa. Mikäli tarvetta on enemmälle kuin kahdelle sukupuolitetulle tilalle, tuottaja on yhteydessä tilaa toivoneisiin leiriläisiin ja etsimme yhdessä toimivan ratkaisun.
+          Sisältää opetusta 9 tuntia, kahdet iltabileet, mahdollisuuden käyttää suihkua sekä kaikki ruokailut. Majoitus tapahtuu nuorisoseurantalolla patjamajoituksessa. Tarvitset mukaan oman tyynyn, peiton, makuupussin tai muita tarvitsemiasi nukkumisvarusteita. Myllerrys tarjoaa patjat. Majoitus on pääosin sekamajoitusta, mutta kaksi sukupuolitettua tilaa (mies / nainen / muunsukupuolinen) on mahdollista järjestää; esitäthän toiveen ilmoittautumisen lisätiedoissa. Mikäli tarvetta on enemmälle kuin kahdelle sukupuolitetulle tilalle, tuottaja on yhteydessä tilaa toivoneisiin leiriläisiin ja etsimme yhdessä toimivan ratkaisun.
         </p>
 
       </div>
 
       <h2>Kaveripaketit</h2>
       <div className={s.packages}>
-        <h3>Kaveripaketti “Myötämäki” +20€ / +30€ / +50€</h3>
+        <h3>Kaveripaketti ”Myötämäki” +20 € / +30 € / +50 €</h3>
         <p>
-          Jos osallistut leirille, niin tämä paketti ostetaan Majoituspaketin lisäksi! Myllerrys haluaa mahdollistaa harrastamisen myös vähempivaraisille vapaan kansanomaisen paritanssin tanssijoille. Voit maksaa omasta leiristäsi vähän enemmän ja tämä raha jaetaan tasan alentamaan toisen kaveripaketin ostajien kurssimaksua. Mikäli et halua nimeäsi kerrottavan Myllerryksessä, kerrothan siitä meille. (muussa tapauksessa kerromme tämän paketin ostaneiden nimet Myllerryksen päätöshetkessä)
+          Jos osallistut leirille, niin voit ostaa tämän paketin Majoituspaketin lisäksi! Myllerrys haluaa mahdollistaa harrastamisen myös vähempivaraisille vapaan kansanomaisen paritanssin tanssijoille. Voit maksaa omasta leiristäsi vähän enemmän, ja tämä raha jaetaan tasan alentamaan toisen kaveripaketin ostajien kurssimaksua. Mikäli et halua nimeäsi kerrottavan Myllerryksessä, kerrothan siitä meille (muussa tapauksessa kerromme tämän paketin ostaneiden nimet Myllerryksen päätöshetkessä).
         </p>
 
-        <h3>Kaveripaketti “Vastamäki” -?? €</h3>
+        <h3>Kaveripaketti ”Vastamäki” -?? €</h3>
         <p>
-          Jos olet hankalassa taloudellisessa tilanteessa, mutta haluaisit ilmoittautua Myllerrykseen, niin valitse tämä paketti Majoituspaketin lisäksi. Pakettia ei voi valita pelkästään. Huomaathan, että alennusmäärä riippuu “Myötämäki” -paketin ostaneiden ja muiden tämän paketin toivoneiden määrästä! Emme julkaise tai kerro nimeäsi missään. Tieto mahdollisesta alennuksesta tulee noin kuukautta ennen.
+          Jos olet hankalassa taloudellisessa tilanteessa, mutta haluaisit ilmoittautua Myllerrykseen, valitse tämä paketti Majoituspaketin lisäksi. Pakettia ei voi valita pelkästään. Huomaathan, että alennuksen suuruus riippuu ”Myötämäki”-paketin ostaneiden ja muiden tämän paketin toivoneiden lukumäärästä! Emme julkaise tai kerro nimeäsi missään. Tieto mahdollisesta alennuksesta tulee ennen ilmaisen peruutusmahdollisuuden loppumista.
         </p>
 
       </div>
@@ -141,7 +141,7 @@ export default function Details() {
       <img src='/ilmo.png' className={s.leftImage} alt='Ilmoittautuminen' />
 
       <p>
-        Kurssin hinta määräytyy valitsemasi majoituspaketin ja mahdollisen valitsemasi myötä/vastamäki paketin mukaan . Kurssin hintaan sisältyy:
+        Kurssin hinta määräytyy valitsemasi majoituspaketin ja mahdollisen valitsemasi Myötä/Vastamäki-paketin mukaan. Kurssin hintaan sisältyy:
         <br />&nbsp;&#x2022; Yhdeksän tuntia opetusta
         <br />&nbsp;&#x2022; Valitsemasi majoituspaketti
         <br />&nbsp;&#x2022; Kahdet iltabileet
@@ -153,7 +153,7 @@ export default function Details() {
       </p>
 
       <p>
-        Mahdollisen peruutuksen voi tehdä veloituksetta kuukautta ennen. Tämän jälkeen valitsemasi leiripaketti veloitetaan kokonaisuudessaan. Voit esteen sattuessa kuitenkin myydä pakettisi eteenpäin jollekin toiselle.
+        Mahdollisen peruutuksen voi tehdä veloituksetta kuukautta ennen Myllerrystä. Tämän jälkeen valitsemasi leiripaketti veloitetaan kokonaisuudessaan. Voit esteen sattuessa kuitenkin myydä pakettisi eteenpäin toiselle tanssijalle.
       </p>
       <p>
         <b>Huom!</b> Ruokavalioiden muutokset voidaan huomioida vain kolmea viikkoa ennen ilmoitettaessa!

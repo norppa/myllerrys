@@ -17,7 +17,7 @@ const Contact = () => {
           <h3>Lisätietoja:</h3>
           <a href='mailto:info@myllerrys.fi'>info@myllerrys.fi</a>
           <span>Mari Solja, tuottaja</span>
-          <span>044-9786546</span>
+          <span>040-8221378</span>
         </div>
       </div>
     </div>
