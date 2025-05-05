@@ -162,7 +162,7 @@ export default function Details() {
         Mikäli leiri tulee täyteen ja jonoon ilmoittautuu ihmisiä, voimme yhyttää peruutusajan jälkeen peruuttavan henkilön ja jonoon ilmoittautuneen. Ilmoita siis peruutuksestasi hyvissä ajoin, vaikka ilmainen peruutusaika olisikin jo mennyt!
       </p>
 
-      <a className={'link ' + s.ilmolink}>Ilmoittautuminen aukeaa 5.5.2025 klo 17:00</a>
+      <a className={'link ' + s.ilmolink} href='https://kansantanssijamit.fi/myllerrys/ilmo'>Ilmoittaudu mukaan</a>
 
       <img src='/navettakuva.png' className={s.middleImage} alt='Viimeinen pari navetassa' />
 
