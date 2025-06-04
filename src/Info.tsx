@@ -9,6 +9,11 @@ export default function Info() {
       <p className={s.firstParagraph}>
         Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaiden iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
       </p>
+      <p className={s.firstParagraph}>
+        Myllerryksen ovet aukeavat 8.8. klo 17.00, jolloin pääset ilmoittautumaan ja asettumaan taloksi seuraintalolle tai valitsemaasi majoitukseen. Leirin varsinainen aloitus on kello 18.00. Leiri päättyy sunnuntaina 10.8., jolloin ovet sulkeutuvat klo 13.00.
+      </p>
+
+      <i style={{ display: 'flex', justifyContent: 'center' }}>Leiri on täynnä, mutta voit edelleen ilmoittautua varasijalle</i>
       <a className='link' href='https://kansantanssijamit.fi/myllerrys/ilmo'>Ilmoittaudu mukaan</a>
 
 
