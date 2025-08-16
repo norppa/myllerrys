@@ -162,8 +162,8 @@ export default function Details() {
         Mikäli leiri tulee täyteen ja jonoon ilmoittautuu ihmisiä, voimme yhyttää peruutusajan jälkeen peruuttavan henkilön ja jonoon ilmoittautuneen. Ilmoita siis peruutuksestasi hyvissä ajoin, vaikka ilmainen peruutusaika olisikin jo mennyt!
       </p>
 
-      <i style={{ display: 'flex', justifyContent: 'center', position: 'relative', top: 40 }}>Leiri on täynnä, mutta voit edelleen ilmoittautua varasijalle</i>
-      <a className={'link ' + s.ilmolink} href='https://kansantanssijamit.fi/myllerrys/ilmo'>Ilmoittaudu mukaan</a>
+      {/* <i style={{ display: 'flex', justifyContent: 'center', position: 'relative', top: 40 }}>Leiri on täynnä, mutta voit edelleen ilmoittautua varasijalle</i>
+      <a className={'link ' + s.ilmolink} href='https://kansantanssijamit.fi/myllerrys/ilmo'>Ilmoittaudu mukaan</a> */}
 
       <img src='/navettakuva.png' className={s.middleImage} alt='Viimeinen pari navetassa' />
 
