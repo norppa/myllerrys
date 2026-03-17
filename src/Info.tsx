@@ -1,20 +1,32 @@
 import s from './Info.module.css'
 
+const date = import.meta.env.VITE_EVENT_DATE
+
 export default function Info() {
   return (
     <div className={s.info}>
       <h1>Aitomäen Myllerrys</h1>
-      <h2>8.-10.8.2025</h2>
+      <h2>{date}</h2>
 
-      <p style={{ display: 'flex', justifyContent: 'center', border: '4px double brown', borderRadius: 3, padding: 10 }}>
+      {/* <p style={{ display: 'flex', justifyContent: 'center', border: '4px double brown', borderRadius: 3, padding: 10 }}>
         Myllerrys on tältä vuodelta myllerretty! Kiitos kaikille osallistujille ja opettajille, teitte leiristä ikimuistoisen. Ensi vuonna uudestaan!
+      </p> */}
+            <p style={{
+        textAlign: 'center',
+        border: '4px double brown',
+        borderRadius: 3,
+        padding: 20,
+        fontSize: '1.2em',
+        fontWeight: 500
+      }}>
+        Ilmoittautuminen aukeaa 8.5.2026 klo 18:00
       </p>
 
       <p className={s.firstParagraph}>
-        Hurjan suosion saanut Aitomäen Myllerrys järjestetään uudelleen! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaiden iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
+        Hurjan suosion saanut Aitomäen Myllerrys tulee taas! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaiden iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.
       </p>
       <p className={s.firstParagraph}>
-        Myllerryksen ovet aukeavat 8.8. klo 17.00, jolloin pääset ilmoittautumaan ja asettumaan taloksi seuraintalolle tai valitsemaasi majoitukseen. Leirin varsinainen aloitus on kello 18.00. Leiri päättyy sunnuntaina 10.8., jolloin ovet sulkeutuvat klo 13.00.
+        Myllerryksen ovet aukeavat 7.8. klo 17.00, jolloin pääset ilmoittautumaan ja asettumaan taloksi seuraintalolle tai valitsemaasi majoitukseen. Leirin varsinainen aloitus on kello 18.00. Leiri päättyy sunnuntaina 9.8., jolloin ovet sulkeutuvat klo 13.00.
       </p>
 
       {/* <i style={{ display: 'flex', justifyContent: 'center' }}>Leiri on täynnä, mutta voit edelleen ilmoittautua varasijalle</i>

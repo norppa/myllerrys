@@ -1,5 +1,7 @@
 import s from './Banner.module.css'
 
+const date = import.meta.env.VITE_EVENT_DATE
+
 export default function Banner() {
 
   return (
@@ -14,7 +16,7 @@ export default function Banner() {
           <br className={s.br} />
           Kouvolassa
         </div>
-        <div className={s.info + ' ' + s.date}> 8.-10.8.2025</div>
+        <div className={s.info + ' ' + s.date}>{date}</div>
       </div>
     </div>
   )
