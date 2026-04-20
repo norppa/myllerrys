@@ -11,16 +11,20 @@ export default function Info() {
       {/* <p style={{ display: 'flex', justifyContent: 'center', border: '4px double brown', borderRadius: 3, padding: 10 }}>
         Myllerrys on tältä vuodelta myllerretty! Kiitos kaikille osallistujille ja opettajille, teitte leiristä ikimuistoisen. Ensi vuonna uudestaan!
       </p> */}
-            <p style={{
-        textAlign: 'center',
-        border: '4px double brown',
-        borderRadius: 3,
-        padding: 20,
-        fontSize: '1.2em',
-        fontWeight: 500
-      }}>
-        Ilmoittautuminen aukeaa 8.5.2026 klo 18:00
-      </p>
+
+      {new Date() < new Date(import.meta.env.VITE_SIGNUP_OPENS_AT)
+        ? <p style={{
+          textAlign: 'center',
+          border: '4px double brown',
+          borderRadius: 3,
+          padding: 20,
+          fontSize: '1.2em',
+          fontWeight: 500
+        }}>
+          Ilmoittautuminen aukeaa {import.meta.env.VITE_SIGNUP_DATE}
+        </p>
+        : null
+      }
 
       <p className={s.firstParagraph}>
         Hurjan suosion saanut Aitomäen Myllerrys tulee taas! Tule opiskelemaan kansanomaisia paritansseja kolmen päivän ajan, kolmessa erilaisessa opetuksessa, kahdella eri tasolla ja kaksien vauhdikkaiden iltabileiden innostaessa väsyneet jalat kokeilemaan vielä kerran kaikkea opittua. Aitomäen Nuorisoseurantalo ja n. 200m päässä olevan Niemen navetan yliset takaavat tunnelmalliset puitteet leirille.

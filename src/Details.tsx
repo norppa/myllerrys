@@ -161,19 +161,22 @@ export default function Details() {
         <b>Huom!</b> Ruokavalioiden muutokset voidaan huomioida vain kolmea viikkoa ennen ilmoitettaessa!
       </p>
 
-      <p style={{
-        textAlign: 'center',
-        border: '4px double brown',
-        borderRadius: 3,
-        padding: 20,
-        fontSize: '1.2em',
-        fontWeight: 500
-      }}>
-        Ilmoittautuminen aukeaa 8.5.2026 klo 18:00
-      </p>
+      {new Date() < new Date(import.meta.env.VITE_SIGNUP_OPENS_AT)
+        ? <p style={{
+          textAlign: 'center',
+          border: '4px double brown',
+          borderRadius: 3,
+          padding: 20,
+          fontSize: '1.2em',
+          fontWeight: 500
+        }}>
+          Ilmoittautuminen aukeaa {import.meta.env.VITE_SIGNUP_DATE}
+        </p>
+        : null
+      }
 
-      {/* <i style={{ display: 'flex', justifyContent: 'center', position: 'relative', top: 40 }}>Leiri on täynnä, mutta voit edelleen ilmoittautua varasijalle</i>
-      <a className={'link ' + s.ilmolink} href='https://kansantanssijamit.fi/myllerrys/ilmo'>Ilmoittaudu mukaan</a> */}
+      {/* <i style={{ display: 'flex', justifyContent: 'center', position: 'relative', top: 40 }}>Leiri on täynnä, mutta voit edelleen ilmoittautua varasijalle</i>*/}
+      <a className={'link ' + s.ilmolink} href='https://lomake.kansantanssijamit.fi/myllerrys/ilmo'>Ilmoittaudu mukaan</a>
 
       <img src='/navettakuva.png' className={s.middleImage} alt='Viimeinen pari navetassa' />
 
